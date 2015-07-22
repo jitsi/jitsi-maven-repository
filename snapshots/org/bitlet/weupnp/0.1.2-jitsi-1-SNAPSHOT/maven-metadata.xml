@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.bitlet</groupId>
+  <artifactId>weupnp</artifactId>
+  <version>0.1.2-jitsi-1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150722.201224</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20150722201224</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.2-jitsi-1-20150722.201224-1</value>
+        <updated>20150722201224</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.2-jitsi-1-20150722.201224-1</value>
+        <updated>20150722201224</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
