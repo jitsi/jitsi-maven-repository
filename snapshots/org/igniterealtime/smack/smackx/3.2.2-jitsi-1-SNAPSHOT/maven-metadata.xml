@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.igniterealtime.smack</groupId>
+  <artifactId>smackx</artifactId>
+  <version>3.2.2-jitsi-1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150723.004433</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20150723004433</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.2.2-jitsi-1-20150723.004433-1</value>
+        <updated>20150723004433</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.2.2-jitsi-1-20150723.004433-1</value>
+        <updated>20150723004433</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

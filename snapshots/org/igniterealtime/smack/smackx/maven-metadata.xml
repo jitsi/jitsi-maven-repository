@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.igniterealtime.smack</groupId>
+  <artifactId>smackx</artifactId>
+  <versioning>
+    <versions>
+      <version>3.2.2-jitsi-1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150723004433</lastUpdated>
+  </versioning>
+</metadata>
