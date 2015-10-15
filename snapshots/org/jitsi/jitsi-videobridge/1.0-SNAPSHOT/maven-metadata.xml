@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-videobridge</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20151015.153633</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20151015153633</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0-20151015.153633-1</value>
+        <updated>20151015153633</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20151015.153633-1</value>
+        <updated>20151015153633</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>zip</extension>
+        <value>1.0-20151015.153633-1</value>
+        <updated>20151015153633</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
