@@ -5,20 +5,20 @@
   <version>3.2.2-jitsi-1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20151130.221218</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20151215.185922</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20151130221218</lastUpdated>
+    <lastUpdated>20151215185922</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>3.2.2-jitsi-1-20151130.221218-2</value>
-        <updated>20151130221218</updated>
+        <value>3.2.2-jitsi-1-20151215.185922-3</value>
+        <updated>20151215185922</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>3.2.2-jitsi-1-20151130.221218-2</value>
-        <updated>20151130221218</updated>
+        <value>3.2.2-jitsi-1-20151215.185922-3</value>
+        <updated>20151215185922</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

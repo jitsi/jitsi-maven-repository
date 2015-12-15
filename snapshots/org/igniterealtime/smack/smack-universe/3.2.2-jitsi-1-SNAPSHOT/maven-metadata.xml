@@ -5,15 +5,15 @@
   <version>3.2.2-jitsi-1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20151130.221217</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20151215.185918</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20151130221217</lastUpdated>
+    <lastUpdated>20151215185918</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>3.2.2-jitsi-1-20151130.221217-2</value>
-        <updated>20151130221217</updated>
+        <value>3.2.2-jitsi-1-20151215.185918-3</value>
+        <updated>20151215185918</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
