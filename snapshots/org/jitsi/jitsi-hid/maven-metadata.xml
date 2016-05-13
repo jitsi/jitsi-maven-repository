@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-hid</artifactId>
+  <versioning>
+    <versions>
+      <version>2.9-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160513134540</lastUpdated>
+  </versioning>
+</metadata>
