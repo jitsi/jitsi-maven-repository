@@ -5,7 +5,8 @@
   <versioning>
     <versions>
       <version>3.2.2-jitsi-1-SNAPSHOT</version>
+      <version>3.2.2-jitsi-2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20151215185918</lastUpdated>
+    <lastUpdated>20161227210502</lastUpdated>
   </versioning>
 </metadata>
