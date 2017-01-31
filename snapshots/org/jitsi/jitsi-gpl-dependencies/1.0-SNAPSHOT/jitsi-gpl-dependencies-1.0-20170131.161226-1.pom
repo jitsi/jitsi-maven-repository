@@ -1,0 +1,80 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jitsi</groupId>
+    <artifactId>jitsi-universe</artifactId>
+    <version>1.0-20160202.203332-11</version>
+  </parent>
+
+  <artifactId>jitsi-gpl-dependencies</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>bundle</packaging>
+
+  <name>jitsi-gpl-dependencies</name>
+  <url>https://github.com/jitsi/jitsi-gpl-dependencies/</url>
+
+  <build>
+    <plugins>
+      <plugin>
+         <groupId>org.apache.felix</groupId>
+         <artifactId>maven-bundle-plugin</artifactId>
+         <configuration>
+            <instructions>
+               <Export-Package></Export-Package>
+               <Fragment-Host>org.jitsi.libjitsi</Fragment-Host>
+               <Bundle-NativeCode>
+                darwin/libjnffmpeg.jnilib;osname=Mac OS X;processor=x86-64,
+                linux-x86/libjnffmpeg.so;osname=Linux;processor=x86,
+                linux-x86-64/libjnffmpeg.so;osname=Linux;processor=x86-64,
+                win32-x86/jnffmpeg.dll;osname=Win32;processor=x86,
+                win32-x86-64/jnffmpeg.dll;osname=Win32;processor=x86-64
+               </Bundle-NativeCode>
+            </instructions>
+         </configuration>
+      </plugin>
+    </plugins>
+    <resources>
+      <resource>
+        <directory>lib/native</directory>
+      </resource>
+    </resources>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>jitsi-maven-repository-releases</id>
+      <layout>default</layout>
+      <name>Jitsi Maven Repository (Releases)</name>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <url>https://github.com/jitsi/jitsi-maven-repository/raw/master/releases/</url>
+    </repository>
+    <repository>
+      <id>jitsi-maven-repository-snapshots</id>
+      <layout>default</layout>
+      <name>Jitsi Maven Repository (Snapshots)</name>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <url>https://github.com/jitsi/jitsi-maven-repository/raw/master/snapshots/</url>
+    </repository>
+  </repositories>
+</project>
