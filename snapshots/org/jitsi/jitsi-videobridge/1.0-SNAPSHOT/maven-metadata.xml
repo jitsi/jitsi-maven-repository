@@ -5,20 +5,20 @@
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20170523.204532</timestamp>
-      <buildNumber>356</buildNumber>
+      <timestamp>20170526.134340</timestamp>
+      <buildNumber>357</buildNumber>
     </snapshot>
-    <lastUpdated>20170523204532</lastUpdated>
+    <lastUpdated>20170526134340</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20170523.204532-356</value>
-        <updated>20170523204532</updated>
+        <value>1.0-20170526.134340-357</value>
+        <updated>20170526134340</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20170523.204532-356</value>
-        <updated>20170523204532</updated>
+        <value>1.0-20170526.134340-357</value>
+        <updated>20170526134340</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>zip</extension>
@@ -28,32 +28,32 @@
       <snapshotVersion>
         <classifier>native-linux-32</classifier>
         <extension>jar</extension>
-        <value>1.0-20170523.204532-356</value>
-        <updated>20170523204532</updated>
+        <value>1.0-20170526.134340-357</value>
+        <updated>20170526134340</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-64</classifier>
         <extension>jar</extension>
-        <value>1.0-20170523.204532-356</value>
-        <updated>20170523204532</updated>
+        <value>1.0-20170526.134340-357</value>
+        <updated>20170526134340</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-macosx</classifier>
         <extension>jar</extension>
-        <value>1.0-20170523.204532-356</value>
-        <updated>20170523204532</updated>
+        <value>1.0-20170526.134340-357</value>
+        <updated>20170526134340</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-windows-32</classifier>
         <extension>jar</extension>
-        <value>1.0-20170523.204532-356</value>
-        <updated>20170523204532</updated>
+        <value>1.0-20170526.134340-357</value>
+        <updated>20170526134340</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-windows-64</classifier>
         <extension>jar</extension>
-        <value>1.0-20170523.204532-356</value>
-        <updated>20170523204532</updated>
+        <value>1.0-20170526.134340-357</value>
+        <updated>20170526134340</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
