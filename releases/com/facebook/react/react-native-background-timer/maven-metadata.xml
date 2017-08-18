@@ -3,12 +3,13 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-background-timer</artifactId>
   <versioning>
-    <release>1.1.0-jitsi-1</release>
+    <release>1.2.0-jitsi-1</release>
     <versions>
       <version>1.0.2-jitsi-1</version>
       <version>1.0.3-jitsi-1</version>
       <version>1.1.0-jitsi-1</version>
+      <version>1.2.0-jitsi-1</version>
     </versions>
-    <lastUpdated>20170728233208</lastUpdated>
+    <lastUpdated>20170818210933</lastUpdated>
   </versioning>
 </metadata>
