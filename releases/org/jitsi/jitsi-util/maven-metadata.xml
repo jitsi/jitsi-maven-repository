@@ -3,10 +3,11 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-util</artifactId>
   <versioning>
-    <release>2.13.77e7a10</release>
+    <release>2.13.2791c1f</release>
     <versions>
       <version>2.13.77e7a10</version>
+      <version>2.13.2791c1f</version>
     </versions>
-    <lastUpdated>20171010150031</lastUpdated>
+    <lastUpdated>20171012003116</lastUpdated>
   </versioning>
 </metadata>
