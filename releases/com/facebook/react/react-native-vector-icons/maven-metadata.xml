@@ -3,13 +3,14 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-vector-icons</artifactId>
   <versioning>
-    <release>4.4.0-jitsi-1</release>
+    <release>4.4.2-jitsi-1</release>
     <versions>
       <version>4.1.1-jitsi-1</version>
       <version>4.2.0-jitsi-1</version>
       <version>4.3.0-jitsi-1</version>
       <version>4.4.0-jitsi-1</version>
+      <version>4.4.2-jitsi-1</version>
     </versions>
-    <lastUpdated>20171020140433</lastUpdated>
+    <lastUpdated>20171117221301</lastUpdated>
   </versioning>
 </metadata>
