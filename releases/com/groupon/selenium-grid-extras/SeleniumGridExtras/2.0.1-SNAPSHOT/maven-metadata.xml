@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.groupon.selenium-grid-extras</groupId>
+  <artifactId>SeleniumGridExtras</artifactId>
+  <version>2.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180209.221537</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20180209221537</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.0.1-20180209.221537-1</value>
+        <updated>20180209221537</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.1-20180209.221537-1</value>
+        <updated>20180209221537</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>jar-with-dependencies</classifier>
+        <extension>jar</extension>
+        <value>2.0.1-20180209.221537-1</value>
+        <updated>20180209221537</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
