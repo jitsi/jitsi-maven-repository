@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-protocol</artifactId>
   <versioning>
-    <release>2.13.57d2f32</release>
+    <release>2.13.f338aef</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -14,7 +14,8 @@
       <version>2.13.b44e2b9</version>
       <version>2.13.7eabaab</version>
       <version>2.13.57d2f32</version>
+      <version>2.13.f338aef</version>
     </versions>
-    <lastUpdated>20180215162634</lastUpdated>
+    <lastUpdated>20180301235141</lastUpdated>
   </versioning>
 </metadata>
