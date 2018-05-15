@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-protocol-jabber</artifactId>
   <versioning>
-    <release>2.13.c1fc9a7</release>
+    <release>2.13.97a567f</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -17,7 +17,8 @@
       <version>2.13.f338aef</version>
       <version>2.13.f0a8003</version>
       <version>2.13.c1fc9a7</version>
+      <version>2.13.97a567f</version>
     </versions>
-    <lastUpdated>20180418190206</lastUpdated>
+    <lastUpdated>20180515130640</lastUpdated>
   </versioning>
 </metadata>
