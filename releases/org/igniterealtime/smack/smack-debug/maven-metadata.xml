@@ -3,10 +3,11 @@
   <groupId>org.igniterealtime.smack</groupId>
   <artifactId>smack-debug</artifactId>
   <versioning>
-    <release>4.2.1-b3995a2</release>
+    <release>4.2.2-b1c107f</release>
     <versions>
       <version>4.2.1-b3995a2</version>
+      <version>4.2.2-b1c107f</version>
     </versions>
-    <lastUpdated>20171107190948</lastUpdated>
+    <lastUpdated>20180518144045</lastUpdated>
   </versioning>
 </metadata>
