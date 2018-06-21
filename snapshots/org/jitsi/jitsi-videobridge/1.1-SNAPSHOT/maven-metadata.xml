@@ -5,50 +5,50 @@
   <version>1.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180615.220358</timestamp>
-      <buildNumber>69</buildNumber>
+      <timestamp>20180621.124247</timestamp>
+      <buildNumber>70</buildNumber>
     </snapshot>
-    <lastUpdated>20180615220358</lastUpdated>
+    <lastUpdated>20180621124247</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.1-20180615.220358-69</value>
-        <updated>20180615220358</updated>
+        <value>1.1-20180621.124247-70</value>
+        <updated>20180621124247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.1-20180615.220358-69</value>
-        <updated>20180615220358</updated>
+        <value>1.1-20180621.124247-70</value>
+        <updated>20180621124247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-32</classifier>
         <extension>jar</extension>
-        <value>1.1-20180615.220358-69</value>
-        <updated>20180615220358</updated>
+        <value>1.1-20180621.124247-70</value>
+        <updated>20180621124247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-64</classifier>
         <extension>jar</extension>
-        <value>1.1-20180615.220358-69</value>
-        <updated>20180615220358</updated>
+        <value>1.1-20180621.124247-70</value>
+        <updated>20180621124247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-macosx</classifier>
         <extension>jar</extension>
-        <value>1.1-20180615.220358-69</value>
-        <updated>20180615220358</updated>
+        <value>1.1-20180621.124247-70</value>
+        <updated>20180621124247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-windows-32</classifier>
         <extension>jar</extension>
-        <value>1.1-20180615.220358-69</value>
-        <updated>20180615220358</updated>
+        <value>1.1-20180621.124247-70</value>
+        <updated>20180621124247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-windows-64</classifier>
         <extension>jar</extension>
-        <value>1.1-20180615.220358-69</value>
-        <updated>20180615220358</updated>
+        <value>1.1-20180621.124247-70</value>
+        <updated>20180621124247</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
