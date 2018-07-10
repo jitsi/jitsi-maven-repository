@@ -5,20 +5,20 @@
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180705.212222</timestamp>
-      <buildNumber>356</buildNumber>
+      <timestamp>20180710.185706</timestamp>
+      <buildNumber>357</buildNumber>
     </snapshot>
-    <lastUpdated>20180705212222</lastUpdated>
+    <lastUpdated>20180710185706</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20180705.212222-356</value>
-        <updated>20180705212222</updated>
+        <value>1.0-20180710.185706-357</value>
+        <updated>20180710185706</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20180705.212222-356</value>
-        <updated>20180705212222</updated>
+        <value>1.0-20180710.185706-357</value>
+        <updated>20180710185706</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
