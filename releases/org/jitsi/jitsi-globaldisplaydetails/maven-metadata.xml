@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-globaldisplaydetails</artifactId>
   <versioning>
-    <release>2.13.812e3ed</release>
+    <release>2.13.daafb6e</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -30,7 +30,8 @@
       <version>2.13.67d8c8b</version>
       <version>2.13.97cbdf3</version>
       <version>2.13.812e3ed</version>
+      <version>2.13.daafb6e</version>
     </versions>
-    <lastUpdated>20180730082133</lastUpdated>
+    <lastUpdated>20180803213631</lastUpdated>
   </versioning>
 </metadata>
