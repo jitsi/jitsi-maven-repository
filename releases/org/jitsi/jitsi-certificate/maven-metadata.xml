@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-certificate</artifactId>
   <versioning>
-    <release>2.13.1f912b9</release>
+    <release>2.13.f2623cf</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -35,7 +35,8 @@
       <version>2.13.8e5b848</version>
       <version>2.13.7e5df0b</version>
       <version>2.13.1f912b9</version>
+      <version>2.13.f2623cf</version>
     </versions>
-    <lastUpdated>20180814200125</lastUpdated>
+    <lastUpdated>20180822234629</lastUpdated>
   </versioning>
 </metadata>
