@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-notification-service</artifactId>
   <versioning>
-    <release>2.13.b3295da</release>
+    <release>2.13.f4d340d</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -50,7 +50,8 @@
       <version>2.13.953eef4</version>
       <version>2.13.5307014</version>
       <version>2.13.b3295da</version>
+      <version>2.13.f4d340d</version>
     </versions>
-    <lastUpdated>20190327205153</lastUpdated>
+    <lastUpdated>20190329142653</lastUpdated>
   </versioning>
 </metadata>
