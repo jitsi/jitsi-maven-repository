@@ -5,56 +5,56 @@
   <version>1.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20190329.155031</timestamp>
-      <buildNumber>110</buildNumber>
+      <timestamp>20190407.144758</timestamp>
+      <buildNumber>111</buildNumber>
     </snapshot>
-    <lastUpdated>20190329155031</lastUpdated>
+    <lastUpdated>20190407144758</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-32</classifier>
         <extension>jar</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-64</classifier>
         <extension>jar</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-macosx</classifier>
         <extension>jar</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-windows-32</classifier>
         <extension>jar</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-windows-64</classifier>
         <extension>jar</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.1-20190329.155031-110</value>
-        <updated>20190329155031</updated>
+        <value>1.1-20190407.144758-111</value>
+        <updated>20190407144758</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
