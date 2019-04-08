@@ -5,44 +5,44 @@
   <version>1.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20190405.151714</timestamp>
-      <buildNumber>37</buildNumber>
+      <timestamp>20190408.143743</timestamp>
+      <buildNumber>38</buildNumber>
     </snapshot>
-    <lastUpdated>20190405151714</lastUpdated>
+    <lastUpdated>20190408143743</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.1-20190405.151714-37</value>
-        <updated>20190405151714</updated>
+        <value>1.1-20190408.143743-38</value>
+        <updated>20190408143743</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.1-20190405.151714-37</value>
-        <updated>20190405151714</updated>
+        <value>1.1-20190408.143743-38</value>
+        <updated>20190408143743</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-32</classifier>
         <extension>jar</extension>
-        <value>1.1-20190405.151714-37</value>
-        <updated>20190405151714</updated>
+        <value>1.1-20190408.143743-38</value>
+        <updated>20190408143743</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-64</classifier>
         <extension>jar</extension>
-        <value>1.1-20190405.151714-37</value>
-        <updated>20190405151714</updated>
+        <value>1.1-20190408.143743-38</value>
+        <updated>20190408143743</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-macosx</classifier>
         <extension>jar</extension>
-        <value>1.1-20190405.151714-37</value>
-        <updated>20190405151714</updated>
+        <value>1.1-20190408.143743-38</value>
+        <updated>20190408143743</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.1-20190405.151714-37</value>
-        <updated>20190405151714</updated>
+        <value>1.1-20190408.143743-38</value>
+        <updated>20190408143743</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
