@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-fast-image</artifactId>
+  <version>5.1.1-jitsi-1696176</version>
+  <packaging>aar</packaging>
+  <name>react-native-fast-image</name>
+  <description>🚩 FastImage, performant React Native image component.</description>
+  <url>https://github.com/DylanVann/react-native-fast-image#readme</url>
+  <licenses>
+    <license>
+      <name>(MIT AND Apache-2.0)</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.59</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.7.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>annotations</artifactId>
+      <version>4.7.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>okhttp3-integration</artifactId>
+      <version>4.7.1</version>
+    </dependency>
+  </dependencies>
+</project>
