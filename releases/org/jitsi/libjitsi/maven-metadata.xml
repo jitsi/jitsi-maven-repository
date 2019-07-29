@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>libjitsi</artifactId>
+  <versioning>
+    <release>1.0-0-gb3296cf</release>
+    <versions>
+      <version>1.0-0-gb3296cf</version>
+    </versions>
+    <lastUpdated>20190729135009</lastUpdated>
+  </versioning>
+</metadata>
