@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-media-transform</artifactId>
+  <versioning>
+    <release>1.0-0-ge00b3bb</release>
+    <versions>
+      <version>1.0-0-ge00b3bb</version>
+    </versions>
+    <lastUpdated>20190729083320</lastUpdated>
+  </versioning>
+</metadata>
