@@ -3,10 +3,11 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-stats</artifactId>
   <versioning>
-    <release>1.0-0-g9331147</release>
+    <release>1.0-1-g944da7a</release>
     <versions>
       <version>1.0-0-g9331147</version>
+      <version>1.0-1-g944da7a</version>
     </versions>
-    <lastUpdated>20190730121054</lastUpdated>
+    <lastUpdated>20190730174046</lastUpdated>
   </versioning>
 </metadata>
