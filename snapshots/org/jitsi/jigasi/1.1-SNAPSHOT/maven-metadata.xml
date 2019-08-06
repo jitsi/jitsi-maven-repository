@@ -5,38 +5,38 @@
   <version>1.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20190703.145207</timestamp>
-      <buildNumber>48</buildNumber>
+      <timestamp>20190806.132856</timestamp>
+      <buildNumber>49</buildNumber>
     </snapshot>
-    <lastUpdated>20190703145207</lastUpdated>
+    <lastUpdated>20190806132856</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.1-20190703.145207-48</value>
-        <updated>20190703145207</updated>
+        <value>1.1-20190806.132856-49</value>
+        <updated>20190806132856</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.1-20190703.145207-48</value>
-        <updated>20190703145207</updated>
+        <value>1.1-20190806.132856-49</value>
+        <updated>20190806132856</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-32</classifier>
         <extension>jar</extension>
-        <value>1.1-20190703.145207-48</value>
-        <updated>20190703145207</updated>
+        <value>1.1-20190806.132856-49</value>
+        <updated>20190806132856</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-linux-64</classifier>
         <extension>jar</extension>
-        <value>1.1-20190703.145207-48</value>
-        <updated>20190703145207</updated>
+        <value>1.1-20190806.132856-49</value>
+        <updated>20190806132856</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>native-macosx</classifier>
         <extension>jar</extension>
-        <value>1.1-20190703.145207-48</value>
-        <updated>20190703145207</updated>
+        <value>1.1-20190806.132856-49</value>
+        <updated>20190806132856</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
