@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-packetlogging</artifactId>
   <versioning>
-    <release>2.13.b4bcc4b</release>
+    <release>2.13.6541f72</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -67,7 +67,8 @@
       <version>2.13.030d755</version>
       <version>2.13.07f7fe8</version>
       <version>2.13.b4bcc4b</version>
+      <version>2.13.6541f72</version>
     </versions>
-    <lastUpdated>20190827122204</lastUpdated>
+    <lastUpdated>20190827155207</lastUpdated>
   </versioning>
 </metadata>
