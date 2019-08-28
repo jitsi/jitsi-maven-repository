@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-srtp</artifactId>
+  <versioning>
+    <release>1.0-0-gc94155a</release>
+    <versions>
+      <version>1.0-0-gc94155a</version>
+    </versions>
+    <lastUpdated>20190828181523</lastUpdated>
+  </versioning>
+</metadata>
