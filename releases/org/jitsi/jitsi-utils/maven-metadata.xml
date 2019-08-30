@@ -3,13 +3,14 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-utils</artifactId>
   <versioning>
-    <release>1.0-3-g1156312</release>
+    <release>1.0-4-g77b92a5</release>
     <versions>
       <version>1.0-0-g49ed569</version>
       <version>1.0-1-gaca0e20</version>
       <version>1.0-2-g27c4398</version>
       <version>1.0-3-g1156312</version>
+      <version>1.0-4-g77b92a5</version>
     </versions>
-    <lastUpdated>20190823164853</lastUpdated>
+    <lastUpdated>20190830155348</lastUpdated>
   </versioning>
 </metadata>
