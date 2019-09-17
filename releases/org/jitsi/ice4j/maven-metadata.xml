@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>ice4j</artifactId>
+  <versioning>
+    <release>3.0-0-g43fa07d</release>
+    <versions>
+      <version>3.0-0-g43fa07d</version>
+    </versions>
+    <lastUpdated>20190917161555</lastUpdated>
+  </versioning>
+</metadata>
