@@ -3,10 +3,11 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-utils-parent</artifactId>
   <versioning>
-    <release>1.0-18-g56c973b</release>
+    <release>1.0-19-ge5cd0ce</release>
     <versions>
       <version>1.0-18-g56c973b</version>
+      <version>1.0-19-ge5cd0ce</version>
     </versions>
-    <lastUpdated>20191014172901</lastUpdated>
+    <lastUpdated>20191015040847</lastUpdated>
   </versioning>
 </metadata>

@@ -3,10 +3,11 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-utils-kotlin</artifactId>
   <versioning>
-    <release>1.0-18-g56c973b</release>
+    <release>1.0-19-ge5cd0ce</release>
     <versions>
       <version>1.0-18-g56c973b</version>
+      <version>1.0-19-ge5cd0ce</version>
     </versions>
-    <lastUpdated>20191014172908</lastUpdated>
+    <lastUpdated>20191015040854</lastUpdated>
   </versioning>
 </metadata>
