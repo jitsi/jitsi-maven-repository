@@ -3,7 +3,7 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-sound</artifactId>
   <versioning>
-    <release>0.11.0-jitsi-2674345</release>
+    <release>0.11.0-jitsi-2691882</release>
     <versions>
       <version>0.10.9-jitsi-1</version>
       <version>0.10.9-jitsi-2</version>
@@ -17,7 +17,8 @@
       <version>0.11.0-jitsi-2320019</version>
       <version>0.11.0-jitsi-2535222</version>
       <version>0.11.0-jitsi-2674345</version>
+      <version>0.11.0-jitsi-2691882</version>
     </versions>
-    <lastUpdated>20191106114712</lastUpdated>
+    <lastUpdated>20191108122937</lastUpdated>
   </versioning>
 </metadata>
