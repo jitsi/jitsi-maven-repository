@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-dnsservice</artifactId>
   <versioning>
-    <release>2.13.2ef5817</release>
+    <release>2.13.c920e8c</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -72,7 +72,8 @@
       <version>2.13.be3b3d5</version>
       <version>2.13.b5c5f64</version>
       <version>2.13.2ef5817</version>
+      <version>2.13.c920e8c</version>
     </versions>
-    <lastUpdated>20191118205700</lastUpdated>
+    <lastUpdated>20191120122705</lastUpdated>
   </versioning>
 </metadata>
