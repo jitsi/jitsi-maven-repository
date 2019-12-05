@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-utils-parent</artifactId>
   <versioning>
-    <release>1.0-24-g8f17c70</release>
+    <release>1.0-25-g16c3cab</release>
     <versions>
       <version>1.0-18-g56c973b</version>
       <version>1.0-19-ge5cd0ce</version>
@@ -12,7 +12,8 @@
       <version>1.0-22-g7e196bd</version>
       <version>1.0-23-ga53f8af</version>
       <version>1.0-24-g8f17c70</version>
+      <version>1.0-25-g16c3cab</version>
     </versions>
-    <lastUpdated>20191130023852</lastUpdated>
+    <lastUpdated>20191205044854</lastUpdated>
   </versioning>
 </metadata>
