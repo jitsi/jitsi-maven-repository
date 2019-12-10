@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-utils-kotlin</artifactId>
   <versioning>
-    <release>1.0-25-g16c3cab</release>
+    <release>1.0-26-g20ce8cc</release>
     <versions>
       <version>1.0-18-g56c973b</version>
       <version>1.0-19-ge5cd0ce</version>
@@ -13,7 +13,8 @@
       <version>1.0-23-ga53f8af</version>
       <version>1.0-24-g8f17c70</version>
       <version>1.0-25-g16c3cab</version>
+      <version>1.0-26-g20ce8cc</version>
     </versions>
-    <lastUpdated>20191205044906</lastUpdated>
+    <lastUpdated>20191210222915</lastUpdated>
   </versioning>
 </metadata>
