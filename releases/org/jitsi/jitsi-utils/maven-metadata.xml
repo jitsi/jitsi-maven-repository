@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-utils</artifactId>
   <versioning>
-    <release>1.0-28-g20ff0dd</release>
+    <release>1.0-31-g0a943cd</release>
     <versions>
       <version>1.0-0-g49ed569</version>
       <version>1.0-1-gaca0e20</version>
@@ -31,7 +31,8 @@
       <version>1.0-26-g20ce8cc</version>
       <version>1.0-27-g656fdbd</version>
       <version>1.0-28-g20ff0dd</version>
+      <version>1.0-31-g0a943cd</version>
     </versions>
-    <lastUpdated>20200103225358</lastUpdated>
+    <lastUpdated>20200106191904</lastUpdated>
   </versioning>
 </metadata>
