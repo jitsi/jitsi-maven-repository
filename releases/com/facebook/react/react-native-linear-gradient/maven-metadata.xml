@@ -3,7 +3,7 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-linear-gradient</artifactId>
   <versioning>
-    <release>2.5.6-jitsi-2994175</release>
+    <release>2.5.6-jitsi-3272073</release>
     <versions>
       <version>2.4.0-jitsi-1</version>
       <version>2.5.3-jitsi-1</version>
@@ -19,7 +19,8 @@
       <version>2.5.6-jitsi-2674345</version>
       <version>2.5.6-jitsi-2691882</version>
       <version>2.5.6-jitsi-2994175</version>
+      <version>2.5.6-jitsi-3272073</version>
     </versions>
-    <lastUpdated>20191213121149</lastUpdated>
+    <lastUpdated>20200114160805</lastUpdated>
   </versioning>
 </metadata>
