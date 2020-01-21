@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-fileaccess</artifactId>
   <versioning>
-    <release>2.13.7fe22a7</release>
+    <release>2.13.c95812a8a</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -77,7 +77,8 @@
       <version>2.13.fb19f66</version>
       <version>2.13.cb1b85c</version>
       <version>2.13.7fe22a7</version>
+      <version>2.13.c95812a8a</version>
     </versions>
-    <lastUpdated>20200117185206</lastUpdated>
+    <lastUpdated>20200121170812</lastUpdated>
   </versioning>
 </metadata>
