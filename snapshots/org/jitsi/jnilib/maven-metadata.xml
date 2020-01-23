@@ -4,7 +4,7 @@
   <artifactId>jnilib</artifactId>
   <versioning>
     <versions>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0-20190319.172749-1</version>
     </versions>
     <lastUpdated>20190319172749</lastUpdated>
   </versioning>
