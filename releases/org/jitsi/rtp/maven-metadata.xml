@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>rtp</artifactId>
   <versioning>
-    <release>1.0-40-g29f541f</release>
+    <release>1.0-41-ge1846ad</release>
     <versions>
       <version>1.0-0-gfde2add</version>
       <version>1.0-3-gb0d1012</version>
@@ -40,7 +40,8 @@
       <version>1.0-38-g3bfe6cf</version>
       <version>1.0-39-gaae7da2</version>
       <version>1.0-40-g29f541f</version>
+      <version>1.0-41-ge1846ad</version>
     </versions>
-    <lastUpdated>20200211155754</lastUpdated>
+    <lastUpdated>20200218221738</lastUpdated>
   </versioning>
 </metadata>
