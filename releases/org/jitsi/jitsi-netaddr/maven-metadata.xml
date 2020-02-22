@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-netaddr</artifactId>
   <versioning>
-    <release>2.13.9155f4c28</release>
+    <release>2.13.b49957f0c</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -80,7 +80,8 @@
       <version>2.13.c95812a8a</version>
       <version>2.13.e4a4aa19c</version>
       <version>2.13.9155f4c28</version>
+      <version>2.13.b49957f0c</version>
     </versions>
-    <lastUpdated>20200129043707</lastUpdated>
+    <lastUpdated>20200222001704</lastUpdated>
   </versioning>
 </metadata>
