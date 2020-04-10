@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-srtp</artifactId>
   <versioning>
-    <release>1.0-21-gc720504</release>
+    <release>1.0-22-g68b91ca</release>
     <versions>
       <version>1.0-0-gc94155a</version>
       <version>1.0-14-g15dd616</version>
@@ -14,7 +14,8 @@
       <version>1.0-19-g32c8621</version>
       <version>1.0-20-g513e4e3</version>
       <version>1.0-21-gc720504</version>
+      <version>1.0-22-g68b91ca</version>
     </versions>
-    <lastUpdated>20200124204606</lastUpdated>
+    <lastUpdated>20200410221554</lastUpdated>
   </versioning>
 </metadata>
