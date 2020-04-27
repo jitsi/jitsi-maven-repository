@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jigasi</artifactId>
   <versioning>
-    <release>1.1-106-g2a2e63c</release>
+    <release>1.1-107-g6928850</release>
     <versions>
       <version>1.1-3-gafac780</version>
       <version>1.1-13-g456a312</version>
@@ -55,7 +55,8 @@
       <version>1.1-101-g3b2a0e5</version>
       <version>1.1-105-gb0d38d1</version>
       <version>1.1-106-g2a2e63c</version>
+      <version>1.1-107-g6928850</version>
     </versions>
-    <lastUpdated>20200424152225</lastUpdated>
+    <lastUpdated>20200427195232</lastUpdated>
   </versioning>
 </metadata>
