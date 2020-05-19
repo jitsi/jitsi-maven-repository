@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-videobridge</artifactId>
   <versioning>
-    <release>2.1-171-g4cf3ce1f</release>
+    <release>2.1-202-g5f9377b9</release>
     <versions>
       <version>2.0-0-g533be54</version>
       <version>2.0-1-gedf81c9</version>
@@ -199,7 +199,37 @@
       <version>2.1-169-ga28eb88e</version>
       <version>2.1-170-ga31bd714</version>
       <version>2.1-171-g4cf3ce1f</version>
+      <version>2.1-172-g1be33e6f</version>
+      <version>2.1-173-ga062471b</version>
+      <version>2.1-174-g1cd8ec59</version>
+      <version>2.1-175-g6692b7ce</version>
+      <version>2.1-176-gac7cbb82</version>
+      <version>2.1-177-g254c7450</version>
+      <version>2.1-178-ge68e6705</version>
+      <version>2.1-179-g08554aa9</version>
+      <version>2.1-180-g03b2fc4b</version>
+      <version>2.1-181-gcfdc97d2</version>
+      <version>2.1-182-g67f6fb26</version>
+      <version>2.1-183-gdbddd169</version>
+      <version>2.1-184-g5098bddc</version>
+      <version>2.1-185-g244ac47a</version>
+      <version>2.1-186-g29a8b927</version>
+      <version>2.1-187-g00a2be5a</version>
+      <version>2.1-188-g25620379</version>
+      <version>2.1-189-gfdd68a74</version>
+      <version>2.1-190-g031cb5a9</version>
+      <version>2.1-191-g0d6fb601</version>
+      <version>2.1-192-g06b3dfe5</version>
+      <version>2.1-193-g8c0cd779</version>
+      <version>2.1-194-ga118a329</version>
+      <version>2.1-196-g1b3aca6d</version>
+      <version>2.1-197-g38256192</version>
+      <version>2.1-198-gb3d9736e</version>
+      <version>2.1-199-g5cf453c4</version>
+      <version>2.1-200-g06cfe3ee</version>
+      <version>2.1-201-g357ee2c3</version>
+      <version>2.1-202-g5f9377b9</version>
     </versions>
-    <lastUpdated>20200408231408</lastUpdated>
+    <lastUpdated>20200508180545</lastUpdated>
   </versioning>
 </metadata>
