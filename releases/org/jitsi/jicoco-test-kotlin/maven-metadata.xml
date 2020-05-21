@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jicoco-test-kotlin</artifactId>
   <versioning>
-    <release>1.1-29-g2e64779</release>
+    <release>1.1-30-ge13e40d</release>
     <versions>
       <version>1.1-13-g118a064</version>
       <version>1.1-14-g1cd1c19</version>
@@ -21,7 +21,8 @@
       <version>1.1-27-g9223c3d</version>
       <version>1.1-28-gf83a3d3</version>
       <version>1.1-29-g2e64779</version>
+      <version>1.1-30-ge13e40d</version>
     </versions>
-    <lastUpdated>20200415214602</lastUpdated>
+    <lastUpdated>20200521233556</lastUpdated>
   </versioning>
 </metadata>
