@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-systray-service</artifactId>
   <versioning>
-    <release>2.13.145e8a575</release>
+    <release>2.13.8258aa5ae</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -88,7 +88,8 @@
       <version>2.13.805d76dad</version>
       <version>2.13.232116b40</version>
       <version>2.13.145e8a575</version>
+      <version>2.13.8258aa5ae</version>
     </versions>
-    <lastUpdated>20200602181652</lastUpdated>
+    <lastUpdated>20200611181214</lastUpdated>
   </versioning>
 </metadata>
