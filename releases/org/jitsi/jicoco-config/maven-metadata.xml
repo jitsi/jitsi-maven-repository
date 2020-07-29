@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jicoco-config</artifactId>
+  <versioning>
+    <release>1.1-38-g8d7369a</release>
+    <versions>
+      <version>1.1-38-g8d7369a</version>
+    </versions>
+    <lastUpdated>20200729195616</lastUpdated>
+  </versioning>
+</metadata>
