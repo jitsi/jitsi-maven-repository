@@ -3,11 +3,12 @@
   <groupId>org.jitsi</groupId>
   <artifactId>sctp</artifactId>
   <versioning>
-    <release>1.0-2-ga3ad2e6</release>
+    <release>1.0-3-g9759a1a</release>
     <versions>
       <version>1.0-0-ge979298</version>
       <version>1.0-2-ga3ad2e6</version>
+      <version>1.0-3-g9759a1a</version>
     </versions>
-    <lastUpdated>20200608181754</lastUpdated>
+    <lastUpdated>20200729212740</lastUpdated>
   </versioning>
 </metadata>

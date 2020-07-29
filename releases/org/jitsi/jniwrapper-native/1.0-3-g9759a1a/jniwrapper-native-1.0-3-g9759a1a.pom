@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- This module is responsible for building the final usrsctp native library: that is the one that will
+     be loaded via System.loadLibrary(...) in the java code.  The library is placed in the 'target' output
+     directory and will be named "libjnisctp.jnilib".  Note that when building the jar, it uses the libs in
+     the prebuilt lib directory (src/main/resources/lib/), so if you want to use the jnilib you just built, you'll
+     need to copy it into the right place (correct platfomr subdir) in that prebuilt lib directory -->
+    <parent>
+        <groupId>org.jitsi</groupId>
+        <artifactId>jniwrapper</artifactId>
+        <version>1.0-3-g9759a1a</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>jniwrapper-native</artifactId>
+    <name>usrsctp JNI wrapper (native code)</name>
+
+    <profiles>
+        <profile>
+            <!-- This profile is activated when we're on mac and defines the compiler args we'll use if we're
+            rebuilding the native jniwrapper -->
+            <id>mac-compile-args</id>
+            <activation>
+                <os>
+                    <family>mac</family>
+                </os>
+            </activation>
+            <properties>
+                <libextension>jnilib</libextension>
+                <linkStartOpts>
+                    -shared
+                    -L${project.build.directory}/usrsctp-${project.version}/lib
+                    target/usrsctp-1.0-SNAPSHOT/lib/libusrsctp.a
+                    -lpthread
+                </linkStartOpts>
+                <linkEndOpts></linkEndOpts>
+            </properties>
+        </profile>
+        <profile>
+            <!-- This profile is activated when we're on FreeBSD and defines the compiler args we'll use if we're
+            rebuilding the native jniwrapper -->
+            <id>freebsd-args</id>
+            <activation>
+                <os>
+                    <family>unix</family>
+                    <name>freebsd</name>
+                </os>
+            </activation>
+            <properties>
+                <libextension>so</libextension>
+                <linkStartOpts>
+                      -L${project.build.directory}/usrsctp-${project.version}/lib
+                      -shared
+                </linkStartOpts>
+                <linkEndOpts>
+                     -Wl,-Bstatic
+                     -lusrsctp
+                     -Wl,-Bdynamic
+                     -lpthread
+                </linkEndOpts>
+            </properties>
+        </profile>
+        <profile>
+            <!-- This profile is activated when we're on linux and defines the compiler args we'll use if we're
+            rebuilding the native jniwrapper -->
+            <id>linux-compile-args</id>
+            <activation>
+                <os>
+                    <family>unix</family>
+                    <name>Linux</name>
+                </os>
+            </activation>
+            <properties>
+                <libextension>so</libextension>
+                <linkStartOpts>
+                      -L${project.build.directory}/usrsctp-${project.version}/lib
+                      -shared
+                </linkStartOpts>
+                <linkEndOpts>
+                     -Wl,-Bstatic
+                     -lusrsctp
+                     -Wl,-Bdynamic
+                     -lpthread
+                </linkEndOpts>
+            </properties>
+        </profile>
+        <profile>
+            <!-- This profile is activated when the system property 'buildNativeWrapper' is defined (i.e. via
+            passing -DbuildNativeWrapper to maven).  It adds a dependency on the usrsctp jar (since we'll need
+            the built libraries and include headers from it) and recompiles the native jniwrapper code -->
+            <id>rebuild-native-wrapper</id>
+            <activation>
+                <property>
+                    <name>buildNativeWrapper</name>
+                </property>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>${project.groupId}</groupId>
+                    <artifactId>usrsctp</artifactId>
+                    <version>${project.version}</version>
+                    <!-- This id matches the one we used in javalibs.xml for the usrsctp.  It's where we packaged up
+                    the usrsctp libs and includes -->
+                    <classifier>libs</classifier>
+                    <type>zip</type>
+                </dependency>
+            </dependencies>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>native-maven-plugin</artifactId>
+                        <version>1.0-alpha-9</version>
+                        <extensions>true</extensions>
+                        <executions>
+                            <execution>
+                                <id>java-compile</id>
+                                <phase>compile</phase>
+                                <goals>
+                                    <goal>javah</goal>
+                                    <goal>compile</goal>
+                                    <goal>link</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <compilerProvider>generic</compilerProvider>
+                            <compilerStartOptions>
+                                <compilerStartOption>
+                                    -g -fPIC -std=c99 -O2 -Wall -Itarget/native/javah
+                                </compilerStartOption>
+                            </compilerStartOptions>
+
+                            <javahClassNames>
+                                <javahClassName>org.jitsi_modified.sctp4j.SctpJni</javahClassName>
+                            </javahClassNames>
+                            <javahOS>${os}</javahOS>
+
+                            <sources>
+                                <source>
+                                    <directory>src</directory>
+                                    <fileNames>
+                                        <fileName>org_jitsi_modified_sctp4j_SctpJni.c</fileName>
+                                    </fileNames>
+                                </source>
+                                <source>
+                                    <directory>
+                                        ${project.build.directory}/usrsctp-${project.version}/include
+                                    </directory>
+                                </source>
+                            </sources>
+
+                            <linkerStartOptions>
+                                <linkerStartOption>${linkStartOpts}</linkerStartOption>
+                            </linkerStartOptions>
+                            <linkerEndOptions>
+                                <linkerEndOption>${linkEndOpts}</linkerEndOption>
+                            </linkerEndOptions>
+                            <linkerFinalName>libjnisctp-${os}-${os.arch}</linkerFinalName>
+                            <linkerFinalNameExt>${libextension}</linkerFinalNameExt>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <!-- When a new jnilib is built, it is put in the build directory of this
+            project (target/).  But when a new jniwrapper is built, it uses the prebuilt jnilibs
+            in src/main/resources/lib (we use these prebuilt libs so they don't have to be rebuilt
+            every time).  If you want to use the newly built jnilib in the building of the jniwrapper,
+            you can pass 'deployNewJnilib' to maven (-DdeployNewJnilib) and it will copy the newly
+            built jnilib to the proper directory in src/main/resources/lib) -->
+            <id>deploy-built-jnilib</id>
+            <activation>
+                <property>
+                    <name>deployNewJnilib</name>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.6.0</version>
+                        <executions>
+                            <execution>
+                                <id>deploy-jnilib</id>
+                                <phase>prepare-package</phase>
+                                <goals><goal>exec</goal></goals>
+                                <configuration>
+                                    <workingDirectory>${project.build.directory}</workingDirectory>
+                                    <!--<executable>echo</executable>-->
+                                    <!--<arguments><argument>"hello"</argument></arguments>-->
+                                    <executable>cp</executable>
+                                    <arguments>
+                                        <argument>libjnisctp-${os}-${os.arch}.${libextension}</argument>
+                                        <argument>${project.basedir}/src/main/resources/lib/${os}/libjnisctp.${libextension}</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jniwrapper-java</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <!-- Unpack header files and libraries for build -->
+                    <execution>
+                        <id>unpack</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeTypes>zip</includeTypes>
+                            <outputDirectory>${project.build.directory}</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

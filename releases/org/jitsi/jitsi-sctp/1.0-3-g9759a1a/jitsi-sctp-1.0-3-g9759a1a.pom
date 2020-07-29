@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.jitsi</groupId>
+    <artifactId>jitsi-sctp</artifactId>
+    <version>1.0-3-g9759a1a</version>
+    <packaging>pom</packaging>
+
+    <profiles>
+        <profile>
+            <id>mac</id>
+            <activation>
+                <os>
+                    <family>mac</family>
+                </os>
+            </activation>
+            <properties>
+                <os>darwin</os>
+            </properties>
+        </profile>
+        <profile>
+            <id>linux</id>
+            <activation>
+                <os>
+                    <family>unix</family>
+                    <name>Linux</name>
+                </os>
+            </activation>
+            <properties>
+                <os>linux</os>
+            </properties>
+        </profile>
+        <profile>
+            <id>freebsd</id>
+            <activation>
+                <os>
+                    <family>unix</family>
+                    <name>freebsd</name>
+                </os>
+            </activation>
+            <properties>
+                <os>freebsd</os>
+            </properties>
+        </profile>
+    </profiles>
+
+    <modules>
+        <module>usrsctp</module>
+        <module>jniwrapper</module>
+        <module>sctp</module>
+    </modules>
+</project>
