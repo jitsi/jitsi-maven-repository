@@ -5,20 +5,20 @@
   <version>1.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20200810.201555</timestamp>
-      <buildNumber>184</buildNumber>
+      <timestamp>20200818.223745</timestamp>
+      <buildNumber>185</buildNumber>
     </snapshot>
-    <lastUpdated>20200810201555</lastUpdated>
+    <lastUpdated>20200818223745</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.1-20200810.201555-184</value>
-        <updated>20200810201555</updated>
+        <value>1.1-20200818.223745-185</value>
+        <updated>20200818223745</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.1-20200810.201555-184</value>
-        <updated>20200810201555</updated>
+        <value>1.1-20200818.223745-185</value>
+        <updated>20200818223745</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
@@ -29,14 +29,14 @@
       <snapshotVersion>
         <classifier>archive</classifier>
         <extension>zip</extension>
-        <value>1.1-20200810.201555-184</value>
-        <updated>20200810201555</updated>
+        <value>1.1-20200818.223745-185</value>
+        <updated>20200818223745</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>jar-with-dependencies</classifier>
         <extension>jar</extension>
-        <value>1.1-20200810.201555-184</value>
-        <updated>20200810201555</updated>
+        <value>1.1-20200818.223745-185</value>
+        <updated>20200818223745</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
