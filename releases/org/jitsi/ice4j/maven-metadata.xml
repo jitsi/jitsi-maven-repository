@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>ice4j</artifactId>
   <versioning>
-    <release>3.0-18-g686164f</release>
+    <release>3.0-19-gf8a506e</release>
     <versions>
       <version>3.0-0-g43fa07d</version>
       <version>3.0-1-ge854e4e</version>
@@ -22,7 +22,8 @@
       <version>3.0-16-g9a580a9</version>
       <version>3.0-17-ged63ae8</version>
       <version>3.0-18-g686164f</version>
+      <version>3.0-19-gf8a506e</version>
     </versions>
-    <lastUpdated>20200610202051</lastUpdated>
+    <lastUpdated>20200824164136</lastUpdated>
   </versioning>
 </metadata>
