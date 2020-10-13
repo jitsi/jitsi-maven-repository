@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jicoco-parent</artifactId>
   <versioning>
-    <release>1.1-59-g55b4081</release>
+    <release>1.1-60-g3bc6ace</release>
     <versions>
       <version>1.1-8-gca6e790</version>
       <version>1.1-9-gffbb6dd</version>
@@ -56,7 +56,8 @@
       <version>1.1-57-gf58ea1b</version>
       <version>1.1-58-g13ed16a</version>
       <version>1.1-59-g55b4081</version>
+      <version>1.1-60-g3bc6ace</version>
     </versions>
-    <lastUpdated>20200926161600</lastUpdated>
+    <lastUpdated>20201013182558</lastUpdated>
   </versioning>
 </metadata>
