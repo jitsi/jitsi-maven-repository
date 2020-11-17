@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-videobridge</artifactId>
   <versioning>
-    <release>2.1-398-g8452ff6c</release>
+    <release>2.1-399-g3bf235fb</release>
     <versions>
       <version>2.0-0-g533be54</version>
       <version>2.0-1-gedf81c9</version>
@@ -394,7 +394,8 @@
       <version>2.1-396-gbdc000c2</version>
       <version>2.1-397-gc7e6c9c4</version>
       <version>2.1-398-g8452ff6c</version>
+      <version>2.1-399-g3bf235fb</version>
     </versions>
-    <lastUpdated>20201116192318</lastUpdated>
+    <lastUpdated>20201117184228</lastUpdated>
   </versioning>
 </metadata>
