@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-argdelegation</artifactId>
   <versioning>
-    <release>2.13.1387ed6a7</release>
+    <release>2.13.03d20a1fd</release>
     <versions>
       <version>2.13.77e7a10</version>
       <version>2.13.2791c1f</version>
@@ -97,7 +97,8 @@
       <version>2.13.f21f23689</version>
       <version>2.13.6478f208b</version>
       <version>2.13.1387ed6a7</version>
+      <version>2.13.03d20a1fd</version>
     </versions>
-    <lastUpdated>20201028162641</lastUpdated>
+    <lastUpdated>20210106194221</lastUpdated>
   </versioning>
 </metadata>
