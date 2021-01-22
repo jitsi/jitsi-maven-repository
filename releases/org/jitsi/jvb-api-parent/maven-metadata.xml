@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jvb-api-parent</artifactId>
   <versioning>
-    <release>2.1-419-g256dc7ac</release>
+    <release>2.1-420-g6d75389a</release>
     <versions>
       <version>2.1-227-g3ce5bf97</version>
       <version>2.1-236-gfe05f93f</version>
@@ -176,7 +176,8 @@
       <version>2.1-417-g6112079e</version>
       <version>2.1-418-g27bafcb1</version>
       <version>2.1-419-g256dc7ac</version>
+      <version>2.1-420-g6d75389a</version>
     </versions>
-    <lastUpdated>20210122183747</lastUpdated>
+    <lastUpdated>20210122223348</lastUpdated>
   </versioning>
 </metadata>
