@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-splash-screen</artifactId>
+  <version>3.2.0-jitsi-6840301</version>
+  <packaging>aar</packaging>
+  <name>react-native-splash-screen</name>
+  <description>A splash screen for react-native, hide when application loaded ,it works on iOS and Android.</description>
+  <url>https://github.com/crazycodeboy/react-native-splash-screen#readme</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.61</version>
+    </dependency>
+  </dependencies>
+</project>
