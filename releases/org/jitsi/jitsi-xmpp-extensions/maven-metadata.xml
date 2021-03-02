@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-xmpp-extensions</artifactId>
   <versioning>
-    <release>1.0-20-g330a8f4</release>
+    <release>1.0-21-g3651d97</release>
     <versions>
       <version>1.0-0-gf132d05</version>
       <version>1.0-1-g9b2e85b</version>
@@ -24,7 +24,8 @@
       <version>1.0-18-gee3ce37</version>
       <version>1.0-19-g7f14fef</version>
       <version>1.0-20-g330a8f4</version>
+      <version>1.0-21-g3651d97</version>
     </versions>
-    <lastUpdated>20210302134415</lastUpdated>
+    <lastUpdated>20210302213410</lastUpdated>
   </versioning>
 </metadata>
