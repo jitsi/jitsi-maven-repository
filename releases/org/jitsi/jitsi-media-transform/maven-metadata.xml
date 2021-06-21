@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-media-transform</artifactId>
   <versioning>
-    <release>1.0-240-gc944a85</release>
+    <release>1.0-241-g7f5c7af</release>
     <versions>
       <version>1.0-0-ge00b3bb</version>
       <version>1.0-2-gc5c2d5d</version>
@@ -208,7 +208,8 @@
       <version>1.0-238-g9fbf1f7</version>
       <version>1.0-239-g4e3b6b7</version>
       <version>1.0-240-gc944a85</version>
+      <version>1.0-241-g7f5c7af</version>
     </versions>
-    <lastUpdated>20210616221445</lastUpdated>
+    <lastUpdated>20210621093943</lastUpdated>
   </versioning>
 </metadata>
