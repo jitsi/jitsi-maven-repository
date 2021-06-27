@@ -3,37 +3,11 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-community_netinfo</artifactId>
   <versioning>
-    <latest>4.1.5-jitsi-7615361</latest>
-    <release>4.1.5-jitsi-7615361</release>
+    <latest>4.1.5-jitsi-7847332</latest>
+    <release>4.1.5-jitsi-7847332</release>
     <versions>
-      <version>4.1.5-jitsi-2242590</version>
-      <version>4.1.5-jitsi-2267153</version>
-      <version>4.1.5-jitsi-2320019</version>
-      <version>4.1.5-jitsi-2535222</version>
-      <version>4.1.5-jitsi-2674345</version>
-      <version>4.1.5-jitsi-2691882</version>
-      <version>4.1.5-jitsi-2994175</version>
-      <version>4.1.5-jitsi-3272073</version>
-      <version>4.1.5-jitsi-3479084</version>
-      <version>4.1.5-jitsi-3581777</version>
-      <version>4.1.5-jitsi-3882926</version>
-      <version>4.1.5-jitsi-4132824</version>
-      <version>4.1.5-jitsi-4185678</version>
-      <version>4.1.5-jitsi-4187680</version>
-      <version>4.1.5-jitsi-4429568</version>
-      <version>4.1.5-jitsi-4843163</version>
-      <version>4.1.5-jitsi-4869981</version>
-      <version>4.1.5-jitsi-4912928</version>
-      <version>4.1.5-jitsi-5385907</version>
-      <version>4.1.5-jitsi-5932602</version>
-      <version>4.1.5-jitsi-6503678</version>
-      <version>4.1.5-jitsi-6622688</version>
-      <version>4.1.5-jitsi-6840301</version>
-      <version>4.1.5-jitsi-7097494</version>
-      <version>4.1.5-jitsi-7262143</version>
-      <version>4.1.5-jitsi-7340852</version>
-      <version>4.1.5-jitsi-7615361</version>
+      <version>4.1.5-jitsi-7847332</version>
     </versions>
-    <lastUpdated>20210531084658</lastUpdated>
+    <lastUpdated>20210627050842</lastUpdated>
   </versioning>
 </metadata>
