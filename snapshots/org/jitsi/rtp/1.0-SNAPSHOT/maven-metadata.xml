@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jitsi</groupId>
+  <artifactId>rtp</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20190723.115603</timestamp>
+      <buildNumber>38</buildNumber>
+    </snapshot>
+    <lastUpdated>20190723115603</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0-20190723.115603-38</value>
+        <updated>20190723115603</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20190723.115603-38</value>
+        <updated>20190723115603</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0-20190723.115603-38</value>
+        <updated>20190723115603</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

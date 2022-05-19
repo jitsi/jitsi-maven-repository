@@ -1,0 +1,47 @@
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jitsi</groupId>
+        <artifactId>jitsi-universe</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../jitsi-universe/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>newrelic-api-stub</artifactId>
+    <version>3.21.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>newrelic-api-stub</name>
+    <url>https://github.com/jitsi/newrelic-java-api-stub</url>
+
+    <repositories>
+        <repository>
+            <id>jitsi-maven-repository-releases</id>
+            <layout>default</layout>
+            <name>Jitsi Maven Repository (Releases)</name>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <url>https://github.com/jitsi/jitsi-maven-repository/raw/master/releases/</url>
+        </repository>
+        <repository>
+            <id>jitsi-maven-repository-snapshots</id>
+            <layout>default</layout>
+            <name>Jitsi Maven Repository (Snapshots)</name>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <url>https://github.com/jitsi/jitsi-maven-repository/raw/master/snapshots/</url>
+        </repository>
+    </repositories>
+</project>

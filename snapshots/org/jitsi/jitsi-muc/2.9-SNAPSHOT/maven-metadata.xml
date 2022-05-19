@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-muc</artifactId>
+  <version>2.9-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20160516.065848</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20160516065848</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.9-20160516.065848-1</value>
+        <updated>20160516065848</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.9-20160516.065848-1</value>
+        <updated>20160516065848</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

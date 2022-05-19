@@ -1,0 +1,79 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jitsi</groupId>
+    <artifactId>jitsi-universe</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../jitsi-universe/pom.xml</relativePath>
+  </parent>
+
+  <artifactId>libjitsi-protocol</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>libjitsi-protocol</name>
+  <url>https://github.com/jitsi/libjitsi-protocol</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.igniterealtime</groupId>
+      <artifactId>tinder</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.igniterealtime.smack</groupId>
+      <artifactId>smack</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.igniterealtime.whack</groupId>
+      <artifactId>core</artifactId>
+    </dependency>
+    <!-- org.jitsi -->
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>jitsi-configuration</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>jitsi-protocol</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>jitsi-protocol-jabber</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>jitsi-util</artifactId>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>jitsi-maven-repository-releases</id>
+      <layout>default</layout>
+      <name>Jitsi Maven Repository (Releases)</name>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <url>https://github.com/jitsi/jitsi-maven-repository/raw/master/releases/</url>
+    </repository>
+    <repository>
+      <id>jitsi-maven-repository-snapshots</id>
+      <layout>default</layout>
+      <name>Jitsi Maven Repository (Snapshots)</name>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <url>https://github.com/jitsi/jitsi-maven-repository/raw/master/snapshots/</url>
+    </repository>
+  </repositories>
+</project>

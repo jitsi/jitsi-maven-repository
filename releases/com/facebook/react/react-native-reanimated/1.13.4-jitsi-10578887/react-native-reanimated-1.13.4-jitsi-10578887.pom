@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-reanimated</artifactId>
+  <version>1.13.4-jitsi-10578887</version>
+  <packaging>aar</packaging>
+  <name>react-native-reanimated</name>
+  <description>More powerful alternative to Animated library for React Native.</description>
+  <url>https://github.com/software-mansion/react-native-reanimated#readme</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.68</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.transition</groupId>
+      <artifactId>transition</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

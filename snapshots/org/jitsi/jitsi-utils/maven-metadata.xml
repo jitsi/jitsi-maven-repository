@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-utils</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190723110846</lastUpdated>
+  </versioning>
+</metadata>

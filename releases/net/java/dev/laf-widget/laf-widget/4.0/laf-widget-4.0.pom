@@ -1,0 +1,23 @@
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.java.dev.laf-widget</groupId>
+	<artifactId>laf-widget</artifactId>
+	<version>4.0</version>
+	<packaging>jar</packaging>
+	<name>Laf-Widget</name>
+	<description>  
+		Laf-Widget provides support for common "feel" widgets in look-and-feel libraries
+  	</description>
+
+	<licenses>
+		<license>
+			<name>Berkeley Software Distribution (BSD) License</name>
+			<url>http://www.opensource.org/licenses/bsd-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+</project>
+

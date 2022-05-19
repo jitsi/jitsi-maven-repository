@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-protocol-sip</artifactId>
+  <version>2.11-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20170426.193649</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20170426193649</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.11-20170426.193649-1</value>
+        <updated>20170426193649</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.11-20170426.193649-1</value>
+        <updated>20170426193649</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

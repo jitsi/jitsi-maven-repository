@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-protocol-jabber</artifactId>
+  <version>2.11-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20170912.200837</timestamp>
+      <buildNumber>16</buildNumber>
+    </snapshot>
+    <lastUpdated>20170912200837</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.11-20170912.200837-16</value>
+        <updated>20170912200837</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.11-20170912.200837-16</value>
+        <updated>20170912200837</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

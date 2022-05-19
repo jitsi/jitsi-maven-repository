@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.xmpp</groupId>
+  <artifactId>jnsapi</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.3-jitsi-1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20151013145326</lastUpdated>
+  </versioning>
+</metadata>

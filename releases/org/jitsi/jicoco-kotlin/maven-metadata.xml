@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jicoco-kotlin</artifactId>
+  <versioning>
+    <release>1.1-41-ge1bba79</release>
+    <versions>
+      <version>1.1-8-gca6e790</version>
+      <version>1.1-9-gffbb6dd</version>
+      <version>1.1-10-gfd6b8e9</version>
+      <version>1.1-11-g5d5716e</version>
+      <version>1.1-12-g2b135ca</version>
+      <version>1.1-13-g118a064</version>
+      <version>1.1-14-g1cd1c19</version>
+      <version>1.1-15-geecd377</version>
+      <version>1.1-17-g0f9a752</version>
+      <version>1.1-18-g086dfb4</version>
+      <version>1.1-19-g16fe589</version>
+      <version>1.1-20-ge4ade96</version>
+      <version>1.1-21-g8704fe1</version>
+      <version>1.1-22-gbec9167</version>
+      <version>1.1-23-g961e852</version>
+      <version>1.1-24-gb79480b</version>
+      <version>1.1-25-g0328114</version>
+      <version>1.1-26-g22d54ec</version>
+      <version>1.1-27-g9223c3d</version>
+      <version>1.1-28-gf83a3d3</version>
+      <version>1.1-29-g2e64779</version>
+      <version>1.1-30-ge13e40d</version>
+      <version>1.1-31-g459195c</version>
+      <version>1.1-32-g4fec96a</version>
+      <version>1.1-33-g54f61d5</version>
+      <version>1.1-34-g82ec310</version>
+      <version>1.1-35-g0a59939</version>
+      <version>1.1-36-gecd3e61</version>
+      <version>1.1-37-g95fd201</version>
+      <version>1.1-38-g8d7369a</version>
+      <version>1.1-39-g6b2d353</version>
+      <version>1.1-40-g59424aa</version>
+      <version>1.1-41-ge1bba79</version>
+    </versions>
+    <lastUpdated>20200804183124</lastUpdated>
+  </versioning>
+</metadata>

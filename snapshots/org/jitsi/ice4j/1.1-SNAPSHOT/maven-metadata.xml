@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jitsi</groupId>
+  <artifactId>ice4j</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20161025.170538</timestamp>
+      <buildNumber>21</buildNumber>
+    </snapshot>
+    <lastUpdated>20161025170538</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.1-20161025.170538-21</value>
+        <updated>20161025170538</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1-20161025.170538-21</value>
+        <updated>20161025170538</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

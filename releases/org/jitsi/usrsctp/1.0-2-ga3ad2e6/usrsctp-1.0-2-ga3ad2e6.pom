@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jitsi</groupId>
+        <artifactId>jitsi-sctp</artifactId>
+        <version>1.0-2-ga3ad2e6</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>usrsctp</artifactId>
+    <name>usrsctp native library</name>
+
+    <!-- This module handles the following:
+    1) run ./bootstrap in usrsctp
+    2) run ./configure (with the option below) in usrsctp
+    3) run make in usrsctp
+    4) assemble the built libs and headers into a zip file that can be depended on by others (see the jniwrapper-native
+    module)
+    It assumes:
+    1) A checkout of the usrsctp src has been done within src/native/usrsctp (i.e. after clone src/native/usrsctp/usrsctp
+    will exist) -->
+
+    <properties>
+        <usrsctp_dir>usrsctp</usrsctp_dir>
+    </properties>
+
+    <!-- usrsctp is only bootstrap'd, configure'd and make'd if '-DbuildSctp' is passed -->
+    <profiles>
+        <profile>
+            <id>build usrsctp</id>
+            <activation>
+                <property>
+                    <name>buildSctp</name>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <!-- Use exec plugin to call make, to build or clean library for Linux	-->
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.6.0</version>
+                        <executions>
+                            <execution>
+                                <id>bootstrap</id>
+                                <phase>compile</phase>
+                                <goals><goal>exec</goal></goals>
+                                <configuration>
+                                    <workingDirectory>${usrsctp_dir}</workingDirectory>
+                                    <executable>./bootstrap</executable>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>configure</id>
+                                <phase>compile</phase>
+                                <goals><goal>exec</goal></goals>
+                                <configuration>
+                                    <workingDirectory>${usrsctp_dir}</workingDirectory>
+                                    <executable>./configure</executable>
+                                    <arguments>
+                                        <argument>--with-pic</argument>
+                                        <argument>--enable-invariants</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <!-- Make all in the Maven compile phase -->
+                                <id>buildlib</id>
+                                <phase>compile</phase>
+                                <goals><goal>exec</goal></goals>
+                                <configuration>
+                                    <workingDirectory>${usrsctp_dir}</workingDirectory>
+                                    <executable>make</executable>
+                                    <arguments>
+                                        <argument>all</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <!-- Make clean in the Maven clean phase -->
+                                <id>cleanlib</id>
+                                <phase>clean</phase>
+                                <goals><goal>exec</goal></goals>
+                                <configuration>
+                                    <workingDirectory>${usrsctp_dir}</workingDirectory>
+                                    <executable>make</executable>
+                                    <arguments>
+                                        <argument>clean</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <artifactId>maven-assembly-plugin</artifactId>
+                        <version>3.1.0</version>
+
+                        <configuration>
+                            <descriptors>
+                                <!-- Assembly contents are defined in this file -->
+                                <descriptor>javalibs.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <!-- Build assembly in the Maven package phase -->
+                                <id>make-assembly</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>single</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.igniterealtime.smack</groupId>
+  <artifactId>smack-compression-jzlib</artifactId>
+  <versioning>
+    <release>4.2.2-bc15cdc</release>
+    <versions>
+      <version>4.2.1-b3995a2</version>
+      <version>4.2.2-b1c107f</version>
+      <version>4.2.4-47d17fc</version>
+      <version>4.2.2-bc15cdc</version>
+    </versions>
+    <lastUpdated>20180823222706</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>ice4j</artifactId>
+  <versioning>
+    <release>3.0-23-ga86c4be</release>
+    <versions>
+      <version>3.0-0-g43fa07d</version>
+      <version>3.0-1-ge854e4e</version>
+      <version>3.0-2-g43a9f28</version>
+      <version>3.0-3-g7989977</version>
+      <version>3.0-4-gfe30fe8</version>
+      <version>3.0-7-ge0fccda</version>
+      <version>3.0-8-g36f732b</version>
+      <version>3.0-9-g35e1498</version>
+      <version>3.0-10-g982e782</version>
+      <version>3.0-11-gca3868a</version>
+      <version>3.0-12-ge90c796</version>
+      <version>3.0-13-ge6e3685</version>
+      <version>3.0-14-g7016902</version>
+      <version>3.0-15-g8ffa903</version>
+      <version>3.0-16-g9a580a9</version>
+      <version>3.0-17-ged63ae8</version>
+      <version>3.0-18-g686164f</version>
+      <version>3.0-19-gf8a506e</version>
+      <version>3.0-20-g29ae806</version>
+      <version>3.0-21-g3a55627</version>
+      <version>3.0-22-g67ffceb</version>
+      <version>3.0-23-ga86c4be</version>
+    </versions>
+    <lastUpdated>20201013175611</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-videobridge</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+      <version>1.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200124173127</lastUpdated>
+  </versioning>
+</metadata>

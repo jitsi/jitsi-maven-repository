@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-vector-icons</artifactId>
+  <versioning>
+    <release>6.0.2-jitsi-1696176</release>
+    <versions>
+      <version>4.1.1-jitsi-1</version>
+      <version>4.2.0-jitsi-1</version>
+      <version>4.3.0-jitsi-1</version>
+      <version>4.4.0-jitsi-1</version>
+      <version>4.4.2-jitsi-1</version>
+      <version>4.4.2-jitsi-2</version>
+      <version>6.0.2-jitsi-3</version>
+      <version>6.0.2-jitsi-799011</version>
+      <version>6.0.2-jitsi-877932</version>
+      <version>6.0.2-jitsi-1541582</version>
+      <version>6.0.2-jitsi-1585641</version>
+      <version>6.0.2-jitsi-1696176</version>
+    </versions>
+    <lastUpdated>20190716063821</lastUpdated>
+  </versioning>
+</metadata>

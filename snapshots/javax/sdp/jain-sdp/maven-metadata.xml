@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>javax.sdp</groupId>
+  <artifactId>jain-sdp</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-jitsi-1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150722212426</lastUpdated>
+  </versioning>
+</metadata>

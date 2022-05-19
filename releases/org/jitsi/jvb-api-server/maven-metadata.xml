@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jvb-api-server</artifactId>
+  <versioning>
+    <release>2.1-247-g5f19150c</release>
+    <versions>
+      <version>2.1-227-g3ce5bf97</version>
+      <version>2.1-236-gfe05f93f</version>
+      <version>2.1-237-gdcf67117</version>
+      <version>2.1-238-g12c81bd0</version>
+      <version>2.1-240-g17a3212a</version>
+      <version>2.1-241-g64da6669</version>
+      <version>2.1-242-g0f677fa0</version>
+      <version>2.1-243-g6848362c</version>
+      <version>2.1-244-g9b395cb0</version>
+      <version>2.1-245-g49823c49</version>
+      <version>2.1-247-g5f19150c</version>
+    </versions>
+    <lastUpdated>20200618190918</lastUpdated>
+  </versioning>
+</metadata>

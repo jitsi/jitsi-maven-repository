@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                          http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.freedesktop.dbus</groupId>
+    <artifactId>dbus-java</artifactId>
+    <packaging>jar</packaging>
+    <version>2.7</version>
+    <name>Java D-Bus Implementation</name>
+    <description>This library is a native Java implementation of the D-Bus protocol and not a wrapper around the C reference implementation</description>
+    <url>http://dbus.freedesktop.org/</url>
+    <inceptionYear>2006</inceptionYear>
+
+    <licenses>
+      <license>
+        <name>GNU Lesser General Public License Version 2</name>
+      </license>
+      <license>
+        <name>Academic Free Licence Version 2.1</name>
+      </license>
+    </licenses>
+    <organization>
+      <name>freedesktop.org</name>
+      <url>http://freedesktop.org/</url>
+    </organization>
+    <issueManagement>
+      <system>Bugzilla</system>
+      <url>https://bugs.freedesktop.org/</url>
+    </issueManagement>
+    <developers>
+      <developer>
+        <name>Matthew Johnson</name>
+        <email>dbus@matthew.ath.cx></email>
+      </developer>
+    </developers>
+
+</project>

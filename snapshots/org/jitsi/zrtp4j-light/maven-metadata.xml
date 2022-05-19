@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>zrtp4j-light</artifactId>
+  <versioning>
+    <versions>
+      <version>3.2.0-jitsi-1-SNAPSHOT</version>
+      <version>4.1.0-jitsi-1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190327161226</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.igniterealtime.smack</groupId>
+  <artifactId>smack-universe</artifactId>
+  <versioning>
+    <versions>
+      <version>3.2.2-jitsi-1-SNAPSHOT</version>
+      <version>3.2.2-jitsi-2-SNAPSHOT</version>
+      <version>3.2.2-jitsi-3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170721194507</lastUpdated>
+  </versioning>
+</metadata>

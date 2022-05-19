@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- This module is what can be depended on by other Java projects to use the native usrsctp library; it bridges
+     java to the JNI API -->
+    <parent>
+        <groupId>org.jitsi</groupId>
+        <artifactId>jitsi-sctp</artifactId>
+        <version>1.0-4-g97f4e5e</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <name>Java SCTP library</name>
+    <artifactId>sctp</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jitsi</groupId>
+            <artifactId>jnilib</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+		    <!-- Don't choke when Sctp4j writes to stdout. -->
+		    <forkNode implementation="org.apache.maven.plugin.surefire.extensions.SurefireForkNodeFactory"/>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
