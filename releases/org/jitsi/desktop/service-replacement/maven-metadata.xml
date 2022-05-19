@@ -3,12 +3,13 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>service-replacement</artifactId>
   <versioning>
-    <release>2.14.bfc470731</release>
+    <release>2.14.f1511ac4c</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
       <version>2.14.bfc470731</version>
+      <version>2.14.f1511ac4c</version>
     </versions>
-    <lastUpdated>20220518054356</lastUpdated>
+    <lastUpdated>20220519140945</lastUpdated>
   </versioning>
 </metadata>
