@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>jitsi-launcher</artifactId>
   <versioning>
-    <release>2.14.a4c96fe56</release>
+    <release>2.14.eb42e889b</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -12,7 +12,8 @@
       <version>2.14.645810ca9</version>
       <version>2.14.e4dd6ccc4</version>
       <version>2.14.a4c96fe56</version>
+      <version>2.14.eb42e889b</version>
     </versions>
-    <lastUpdated>20220520161738</lastUpdated>
+    <lastUpdated>20220521154330</lastUpdated>
   </versioning>
 </metadata>
