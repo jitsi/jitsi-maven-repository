@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>rtp</artifactId>
   <versioning>
-    <release>1.0-70-ga1195b3</release>
+    <release>2.2-1-g6410113e</release>
     <versions>
       <version>1.0-0-gfde2add</version>
       <version>1.0-3-gb0d1012</version>
@@ -70,7 +70,8 @@
       <version>1.0-68-g0eb94bf</version>
       <version>1.0-69-gd8300a6</version>
       <version>1.0-70-ga1195b3</version>
+      <version>2.2-1-g6410113e</version>
     </versions>
-    <lastUpdated>20220526172757</lastUpdated>
+    <lastUpdated>20220602195423</lastUpdated>
   </versioning>
 </metadata>
