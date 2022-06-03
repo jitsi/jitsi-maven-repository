@@ -1,0 +1,232 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-serialization-jackson/2.0.2-jitsi/ktor-serialization-jackson-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-serialization-jackson",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.13.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-jackson-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-serialization-jackson-jvm-2.0.2-jitsi.jar",
+          "size": 18656,
+          "sha512": "0bcbc8e2735ac1868162949c4f889448a55d3002ceb3368c403b1f4b5f545ed1a93469e64e5b5b68d00d05cc94d49d184fcd24d938fe98a339cd33aca0bd2f67",
+          "sha256": "988478440ae699b1d2b650f2bcf42d08fdca958d04f0ee212f734bc97a9a84f9",
+          "sha1": "73e2c47e7bb80f097830a085b293808670114012",
+          "md5": "a4ee126c73ea13c4d2a87593dba3b185"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.13.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-serialization-jackson-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-serialization-jackson-jvm-2.0.2-jitsi.jar",
+          "size": 18656,
+          "sha512": "0bcbc8e2735ac1868162949c4f889448a55d3002ceb3368c403b1f4b5f545ed1a93469e64e5b5b68d00d05cc94d49d184fcd24d938fe98a339cd33aca0bd2f67",
+          "sha256": "988478440ae699b1d2b650f2bcf42d08fdca958d04f0ee212f734bc97a9a84f9",
+          "sha1": "73e2c47e7bb80f097830a085b293808670114012",
+          "md5": "a4ee126c73ea13c4d2a87593dba3b185"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server/2.0.2-jitsi/ktor-server-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-server",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-compression",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-jvm-2.0.2-jitsi.jar",
+          "size": 1241,
+          "sha512": "20d288510401b7324c4e946f3928a75eb173b560d0743fa37961af0a281fa6ad0abaa5685e1c1f27ad1c0494be99be41b1f42a3d799c38fb160cffc3de428046",
+          "sha256": "3b4ee3a3497eb484e7e00a6117b7ad6849b0e55cb25435cb113c94c7d92d6c0e",
+          "sha1": "3e2f487f5fe84b3dcd544f48c407f330bce64f30",
+          "md5": "e025a9a3b08c63e77e2a04f6459814ad"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-compression",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-jvm-2.0.2-jitsi.jar",
+          "size": 1241,
+          "sha512": "20d288510401b7324c4e946f3928a75eb173b560d0743fa37961af0a281fa6ad0abaa5685e1c1f27ad1c0494be99be41b1f42a3d799c38fb160cffc3de428046",
+          "sha256": "3b4ee3a3497eb484e7e00a6117b7ad6849b0e55cb25435cb113c94c7d92d6c0e",
+          "sha1": "3e2f487f5fe84b3dcd544f48c407f330bce64f30",
+          "md5": "e025a9a3b08c63e77e2a04f6459814ad"
+        }
+      ]
+    }
+  ]
+}

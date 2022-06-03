@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-network-tls-certificates/2.0.2-jitsi/ktor-network-tls-certificates-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-network-tls-certificates",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tls-certificates-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-network-tls-certificates-jvm-2.0.2-jitsi.jar",
+          "size": 58311,
+          "sha512": "4749d49dfbea6b3c8326bb026c2df5034936597b3883adb01d8ba23afe6b3331f52c74d7cc6e98ab79d14e22b725eca5607cf4f7065fc9fd29129dbd0971228a",
+          "sha256": "de69d03ee5ac61ce8698342b9cdd202c595e7b1dcc438b7d3ccaeb91fc72653f",
+          "sha1": "f0afb91371242e82813346fa2d51fd39dce51e94",
+          "md5": "3f82d4e055b24c2fc97dc946bb3a265c"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-network-tls-certificates-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-network-tls-certificates-jvm-2.0.2-jitsi.jar",
+          "size": 58311,
+          "sha512": "4749d49dfbea6b3c8326bb026c2df5034936597b3883adb01d8ba23afe6b3331f52c74d7cc6e98ab79d14e22b725eca5607cf4f7065fc9fd29129dbd0971228a",
+          "sha256": "de69d03ee5ac61ce8698342b9cdd202c595e7b1dcc438b7d3ccaeb91fc72653f",
+          "sha1": "f0afb91371242e82813346fa2d51fd39dce51e94",
+          "md5": "3f82d4e055b24c2fc97dc946bb3a265c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-tomcat/2.0.2-jitsi/ktor-server-tomcat-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-server-tomcat",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-catalina",
+          "version": {
+            "requires": "9.0.62"
+          }
+        },
+        {
+          "group": "org.apache.tomcat.embed",
+          "module": "tomcat-embed-core",
+          "version": {
+            "requires": "9.0.62"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-tomcat-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-tomcat-jvm-2.0.2-jitsi.jar",
+          "size": 18439,
+          "sha512": "b6524f1a109fc5a51cc030bc231430167883967bd14c0279d5444c54042b56a5452b70b7b704740f696490179756ba0633440365e0ad92ea65165e1add1c5fec",
+          "sha256": "a97a0c379ea12d217020775cd2cd7c2ee64d791a0346e96f0cd94718902bd852",
+          "sha1": "fdada3e588cec7508910754de940723185c73705",
+          "md5": "c85f97477112be70975c8a4b416996a1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.apache.tomcat",
+          "module": "tomcat-catalina",
+          "version": {
+            "requires": "9.0.62"
+          }
+        },
+        {
+          "group": "org.apache.tomcat.embed",
+          "module": "tomcat-embed-core",
+          "version": {
+            "requires": "9.0.62"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-tomcat-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-tomcat-jvm-2.0.2-jitsi.jar",
+          "size": 18439,
+          "sha512": "b6524f1a109fc5a51cc030bc231430167883967bd14c0279d5444c54042b56a5452b70b7b704740f696490179756ba0633440365e0ad92ea65165e1add1c5fec",
+          "sha256": "a97a0c379ea12d217020775cd2cd7c2ee64d791a0346e96f0cd94718902bd852",
+          "sha1": "fdada3e588cec7508910754de940723185c73705",
+          "md5": "c85f97477112be70975c8a4b416996a1"
+        }
+      ]
+    }
+  ]
+}

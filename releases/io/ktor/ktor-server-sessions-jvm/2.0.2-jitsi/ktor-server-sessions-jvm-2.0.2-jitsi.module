@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-sessions/2.0.2-jitsi/ktor-server-sessions-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-server-sessions",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-sessions-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-sessions-jvm-2.0.2-jitsi.jar",
+          "size": 144994,
+          "sha512": "b256957a187f3e6062aeb1ab6aa3bde346c1ae027645865ef00f162e91885c84196461ba0bd2271593b4298db5a86fe7a87d96b5f444be8aca11341ecd641d67",
+          "sha256": "c27197646cbe2a268c907545665733e2838e3f74ca6a0c754effd669e3f7c428",
+          "sha1": "b63f9dfca081c86d358ada469c3776d92967c3a3",
+          "md5": "a0f1df73eb29d5a4755a4ebc602b03dd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-sessions-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-sessions-jvm-2.0.2-jitsi.jar",
+          "size": 144994,
+          "sha512": "b256957a187f3e6062aeb1ab6aa3bde346c1ae027645865ef00f162e91885c84196461ba0bd2271593b4298db5a86fe7a87d96b5f444be8aca11341ecd641d67",
+          "sha256": "c27197646cbe2a268c907545665733e2838e3f74ca6a0c754effd669e3f7c428",
+          "sha1": "b63f9dfca081c86d358ada469c3776d92967c3a3",
+          "md5": "a0f1df73eb29d5a4755a4ebc602b03dd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-jetty11/2.0.2-jitsi/ktor-server-jetty11-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-server-jetty11",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet5",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-servlets",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-java-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.http2",
+          "module": "http2-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-jetty11-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-jetty11-jvm-2.0.2-jitsi.jar",
+          "size": 57704,
+          "sha512": "cc80ad2c6ebcab0458878b65042ce72dfeb306de1d0189c2b4f9ec9daa16d8d76a0bdce954b20d7a0a2d339d4997675d15a9b0e6bc39957006d767e14ad61dc5",
+          "sha256": "05b9294852cc255b94339c58b6b76de117df6c1ae03b6ea1204d87b779546f17",
+          "sha1": "1b02a31c04da1ff33056cfd5f54170c6b0161c46",
+          "md5": "885c8bad70cc08555c8946864f388820"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet5",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-servlets",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-alpn-java-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.http2",
+          "module": "http2-server",
+          "version": {
+            "requires": "11.0.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-jetty11-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-jetty11-jvm-2.0.2-jitsi.jar",
+          "size": 57704,
+          "sha512": "cc80ad2c6ebcab0458878b65042ce72dfeb306de1d0189c2b4f9ec9daa16d8d76a0bdce954b20d7a0a2d339d4997675d15a9b0e6bc39957006d767e14ad61dc5",
+          "sha256": "05b9294852cc255b94339c58b6b76de117df6c1ae03b6ea1204d87b779546f17",
+          "sha1": "1b02a31c04da1ff33056cfd5f54170c6b0161c46",
+          "md5": "885c8bad70cc08555c8946864f388820"
+        }
+      ]
+    }
+  ]
+}

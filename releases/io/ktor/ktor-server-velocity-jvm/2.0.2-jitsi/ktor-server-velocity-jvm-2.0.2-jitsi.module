@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-velocity/2.0.2-jitsi/ktor-server-velocity-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-server-velocity",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity-engine-core",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.apache.velocity.tools",
+          "module": "velocity-tools-generic",
+          "version": {
+            "requires": "3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-velocity-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-velocity-jvm-2.0.2-jitsi.jar",
+          "size": 21461,
+          "sha512": "7dfb0b9f437acbeed7a67804789c8ea1a826956e95afe9f55180bd39d9a5028e731533ff5ed8eb50c75964c80669ae71a8cf953188b585f0bad426928aa45bfe",
+          "sha256": "c173c8879b884a2c94a1583ee6da40f9fb25c2f61d092835ec7b7429e32a195f",
+          "sha1": "ea82a2c09ffab37f76c89ec837c7224e5b9532ff",
+          "md5": "84f0e69e4a1ea5faa5590886c540afa6"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity-engine-core",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.apache.velocity.tools",
+          "module": "velocity-tools-generic",
+          "version": {
+            "requires": "3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-velocity-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-velocity-jvm-2.0.2-jitsi.jar",
+          "size": 21461,
+          "sha512": "7dfb0b9f437acbeed7a67804789c8ea1a826956e95afe9f55180bd39d9a5028e731533ff5ed8eb50c75964c80669ae71a8cf953188b585f0bad426928aa45bfe",
+          "sha256": "c173c8879b884a2c94a1583ee6da40f9fb25c2f61d092835ec7b7429e32a195f",
+          "sha1": "ea82a2c09ffab37f76c89ec837c7224e5b9532ff",
+          "md5": "84f0e69e4a1ea5faa5590886c540afa6"
+        }
+      ]
+    }
+  ]
+}

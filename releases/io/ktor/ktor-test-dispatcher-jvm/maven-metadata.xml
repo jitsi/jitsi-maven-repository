@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.ktor</groupId>
+  <artifactId>ktor-test-dispatcher-jvm</artifactId>
+  <versioning>
+    <latest>2.0.2-jitsi</latest>
+    <release>2.0.2-jitsi</release>
+    <versions>
+      <version>2.0.2-jitsi</version>
+    </versions>
+    <lastUpdated>20220603200604</lastUpdated>
+  </versioning>
+</metadata>

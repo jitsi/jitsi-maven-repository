@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ktor-server-metrics/2.0.2-jitsi/ktor-server-metrics-2.0.2-jitsi.module",
+    "group": "io.ktor",
+    "module": "ktor-server-metrics",
+    "version": "2.0.2-jitsi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.dropwizard.metrics",
+          "module": "metrics-core",
+          "version": {
+            "requires": "4.2.8"
+          }
+        },
+        {
+          "group": "io.dropwizard.metrics",
+          "module": "metrics-jvm",
+          "version": {
+            "requires": "4.2.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-metrics-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-metrics-jvm-2.0.2-jitsi.jar",
+          "size": 28545,
+          "sha512": "214940ddd7dd604636ed95f84f880d1ba229e6222839eabeeb45c9fee058f11d2856177e9f300ae5b9c6ce5b43e572b5425110ba10707be74e54e98f01a61aec",
+          "sha256": "23e1e92c8cb9bc339a6022d7ce3f431729a073d34f37be60c8bd1f5834cefe8c",
+          "sha1": "d4302a6386eb2350312046cf43532f617c0556ea",
+          "md5": "c997bd0ebbb2bf3dde3b0adb6e5c7f4f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jvm"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk8"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "*",
+              "module": "kotlin-stdlib"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "io.dropwizard.metrics",
+          "module": "metrics-core",
+          "version": {
+            "requires": "4.2.8"
+          }
+        },
+        {
+          "group": "io.dropwizard.metrics",
+          "module": "metrics-jvm",
+          "version": {
+            "requires": "4.2.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.2-jitsi"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-server-metrics-jvm-2.0.2-jitsi.jar",
+          "url": "ktor-server-metrics-jvm-2.0.2-jitsi.jar",
+          "size": 28545,
+          "sha512": "214940ddd7dd604636ed95f84f880d1ba229e6222839eabeeb45c9fee058f11d2856177e9f300ae5b9c6ce5b43e572b5425110ba10707be74e54e98f01a61aec",
+          "sha256": "23e1e92c8cb9bc339a6022d7ce3f431729a073d34f37be60c8bd1f5834cefe8c",
+          "sha1": "d4302a6386eb2350312046cf43532f617c0556ea",
+          "md5": "c997bd0ebbb2bf3dde3b0adb6e5c7f4f"
+        }
+      ]
+    }
+  ]
+}
