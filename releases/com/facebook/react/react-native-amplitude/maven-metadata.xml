@@ -3,8 +3,8 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-amplitude</artifactId>
   <versioning>
-    <latest>2.7.0-jitsi-11021265</latest>
-    <release>2.7.0-jitsi-11021265</release>
+    <latest>2.7.0-jitsi-11030363</latest>
+    <release>2.7.0-jitsi-11030363</release>
     <versions>
       <version>2.3.3-jitsi-8462683</version>
       <version>2.3.3-jitsi-8602449</version>
@@ -20,7 +20,8 @@
       <version>2.7.0-jitsi-10639879</version>
       <version>2.7.0-jitsi-11011146</version>
       <version>2.7.0-jitsi-11021265</version>
+      <version>2.7.0-jitsi-11030363</version>
     </versions>
-    <lastUpdated>20220629133737</lastUpdated>
+    <lastUpdated>20220630145354</lastUpdated>
   </versioning>
 </metadata>
