@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>service-desktop</artifactId>
   <versioning>
-    <release>2.14.c7330c51f</release>
+    <release>2.14.08fd0a8ee</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -19,7 +19,8 @@
       <version>2.14.8fd5f3861</version>
       <version>2.14.8008466e1</version>
       <version>2.14.c7330c51f</version>
+      <version>2.14.08fd0a8ee</version>
     </versions>
-    <lastUpdated>20220706092313</lastUpdated>
+    <lastUpdated>20220830162735</lastUpdated>
   </versioning>
 </metadata>
