@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-slider</artifactId>
+  <version>4.1.12-jitsi-12005224</version>
+  <packaging>aar</packaging>
+  <name>react-native-slider</name>
+  <description>React Native component used to select a single value from a range of values.</description>
+  <url>https://github.com/callstack/react-native-slider#readme</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.68</version>
+    </dependency>
+  </dependencies>
+</project>
