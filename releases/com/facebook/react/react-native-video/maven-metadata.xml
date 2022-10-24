@@ -3,8 +3,8 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-video</artifactId>
   <versioning>
-    <latest>6.0.0-alpha.1-jitsi-12005224</latest>
-    <release>6.0.0-alpha.1-jitsi-12005224</release>
+    <latest>6.0.0-alpha.1-jitsi-12030543</latest>
+    <release>6.0.0-alpha.1-jitsi-12030543</release>
     <versions>
       <version>5.1.1-jitsi-8255293</version>
       <version>5.1.1-jitsi-8429843</version>
@@ -26,7 +26,8 @@
       <version>5.2.0-jitsi-11101599</version>
       <version>6.0.0-alpha.1-jitsi-11642645</version>
       <version>6.0.0-alpha.1-jitsi-12005224</version>
+      <version>6.0.0-alpha.1-jitsi-12030543</version>
     </versions>
-    <lastUpdated>20221021105051</lastUpdated>
+    <lastUpdated>20221024091040</lastUpdated>
   </versioning>
 </metadata>
