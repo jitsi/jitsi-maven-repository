@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>jitsi-chatalerter</artifactId>
   <versioning>
-    <release>2.14.8aa7be585</release>
+    <release>2.14.8169c709f</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -21,7 +21,8 @@
       <version>2.14.c7330c51f</version>
       <version>2.14.08fd0a8ee</version>
       <version>2.14.8aa7be585</version>
+      <version>2.14.8169c709f</version>
     </versions>
-    <lastUpdated>20220914131821</lastUpdated>
+    <lastUpdated>20221024172400</lastUpdated>
   </versioning>
 </metadata>
