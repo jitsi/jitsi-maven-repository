@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>jitsi-shutdowntimeout</artifactId>
   <versioning>
-    <release>2.14.f6356339e</release>
+    <release>2.14.d9c09ec7e</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -27,7 +27,8 @@
       <version>2.14.d36a1b760</version>
       <version>2.14.d0aa71b67</version>
       <version>2.14.f6356339e</version>
+      <version>2.14.d9c09ec7e</version>
     </versions>
-    <lastUpdated>20230129151818</lastUpdated>
+    <lastUpdated>20230207182334</lastUpdated>
   </versioning>
 </metadata>
