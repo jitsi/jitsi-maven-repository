@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>service-globaldisplaydetails</artifactId>
   <versioning>
-    <release>2.14.29d8a9290</release>
+    <release>2.14.500fc8aab</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -34,7 +34,8 @@
       <version>2.14.992315df3</version>
       <version>2.14.527749ae7</version>
       <version>2.14.29d8a9290</version>
+      <version>2.14.500fc8aab</version>
     </versions>
-    <lastUpdated>20230510054147</lastUpdated>
+    <lastUpdated>20230618121642</lastUpdated>
   </versioning>
 </metadata>
