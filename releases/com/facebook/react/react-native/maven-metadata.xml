@@ -3,7 +3,7 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native</artifactId>
   <versioning>
-    <release>0.68.6</release>
+    <release>0.69.10</release>
     <versions>
       <version>0.42.3</version>
       <version>0.49.5</version>
@@ -24,7 +24,8 @@
       <version>0.68.4</version>
       <version>0.68.5</version>
       <version>0.68.6</version>
+      <version>0.69.10</version>
     </versions>
-    <lastUpdated>20230503071356</lastUpdated>
+    <lastUpdated>20230711185351</lastUpdated>
   </versioning>
 </metadata>
