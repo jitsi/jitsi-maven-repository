@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-community_clipboard</artifactId>
+  <version>1.5.1-jitsi-14665394</version>
+  <packaging>aar</packaging>
+  <name>react-native-community_clipboard</name>
+  <description>React Native Clipboard API for macOS, iOS, Android, and Windows</description>
+  <url>https://github.com/react-native-community/clipboard#readme</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.69</version>
+    </dependency>
+  </dependencies>
+</project>
