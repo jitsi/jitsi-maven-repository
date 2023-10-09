@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-orientation-locker</artifactId>
+  <version>1.5.0-jitsi-15055180</version>
+  <packaging>aar</packaging>
+  <name>react-native-orientation-locker</name>
+  <description>A react-native module that can listen on orientation changing of device, get current orientation, lock to preferred orientation.</description>
+  <url>https://github.com/wonday/react-native-orientation-locker</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.69</version>
+    </dependency>
+  </dependencies>
+</project>
