@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jniwrapper-java</artifactId>
   <versioning>
-    <release>1.0-13-g4559f07</release>
+    <release>1.0-14-ge26331d</release>
     <versions>
       <version>1.0-0-ge979298</version>
       <version>1.0-2-ga3ad2e6</version>
@@ -17,7 +17,8 @@
       <version>1.0-11-gcd70942</version>
       <version>1.0-12-g5b45737</version>
       <version>1.0-13-g4559f07</version>
+      <version>1.0-14-ge26331d</version>
     </versions>
-    <lastUpdated>20240130210745</lastUpdated>
+    <lastUpdated>20240131175251</lastUpdated>
   </versioning>
 </metadata>
