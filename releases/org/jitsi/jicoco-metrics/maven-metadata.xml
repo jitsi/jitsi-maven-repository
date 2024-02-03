@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jicoco-metrics</artifactId>
   <versioning>
-    <release>1.1-132-g906f995</release>
+    <release>1.1-133-g768ef2e</release>
     <versions>
       <version>1.1-114-g4ddaa6f</version>
       <version>1.1-115-g332f4e7</version>
@@ -24,7 +24,8 @@
       <version>1.1-130-ge574e9c</version>
       <version>1.1-131-ga67207b</version>
       <version>1.1-132-g906f995</version>
+      <version>1.1-133-g768ef2e</version>
     </versions>
-    <lastUpdated>20240201190144</lastUpdated>
+    <lastUpdated>20240203010627</lastUpdated>
   </versioning>
 </metadata>
