@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>jitsi-chatconfig</artifactId>
   <versioning>
-    <release>2.14.0e3663266</release>
+    <release>2.14.d50eab50a</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -45,7 +45,8 @@
       <version>2.14.77b1f5e65</version>
       <version>2.14.91df19826</version>
       <version>2.14.0e3663266</version>
+      <version>2.14.d50eab50a</version>
     </versions>
-    <lastUpdated>20240102120326</lastUpdated>
+    <lastUpdated>20240221103716</lastUpdated>
   </versioning>
 </metadata>
