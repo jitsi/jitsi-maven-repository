@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jitsi</groupId>
+  <artifactId>jitsi-dcsctp</artifactId>
+  <versioning>
+    <release>1.0-0-g8550111</release>
+    <versions>
+      <version>1.0-0-g8550111</version>
+    </versions>
+    <lastUpdated>20240521160557</lastUpdated>
+  </versioning>
+</metadata>
