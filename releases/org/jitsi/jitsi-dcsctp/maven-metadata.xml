@@ -3,11 +3,12 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-dcsctp</artifactId>
   <versioning>
-    <release>1.0-1-ga91e110</release>
+    <release>1.0-2-g2d8eee4</release>
     <versions>
       <version>1.0-0-g8550111</version>
       <version>1.0-1-ga91e110</version>
+      <version>1.0-2-g2d8eee4</version>
     </versions>
-    <lastUpdated>20240521163759</lastUpdated>
+    <lastUpdated>20240528160547</lastUpdated>
   </versioning>
 </metadata>
