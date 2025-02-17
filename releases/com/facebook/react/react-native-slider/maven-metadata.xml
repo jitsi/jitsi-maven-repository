@@ -3,8 +3,8 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-slider</artifactId>
   <versioning>
-    <latest>4.4.3-jitsi-18565203</latest>
-    <release>4.4.3-jitsi-18565203</release>
+    <latest>4.4.3-jitsi-19349267</latest>
+    <release>4.4.3-jitsi-19349267</release>
     <versions>
       <version>3.0.3-jitsi-8255293</version>
       <version>3.0.3-jitsi-8429843</version>
@@ -57,7 +57,8 @@
       <version>4.4.3-jitsi-18026739</version>
       <version>4.4.3-jitsi-18078917</version>
       <version>4.4.3-jitsi-18565203</version>
+      <version>4.4.3-jitsi-19349267</version>
     </versions>
-    <lastUpdated>20241118170049</lastUpdated>
+    <lastUpdated>20250217105806</lastUpdated>
   </versioning>
 </metadata>

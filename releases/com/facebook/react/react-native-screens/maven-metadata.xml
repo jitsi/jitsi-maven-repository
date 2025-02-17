@@ -3,8 +3,8 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-screens</artifactId>
   <versioning>
-    <latest>3.35.0-jitsi-18565203</latest>
-    <release>3.35.0-jitsi-18565203</release>
+    <latest>3.35.0-jitsi-19349267</latest>
+    <release>3.35.0-jitsi-19349267</release>
     <versions>
       <version>2.18.1-jitsi-9223117</version>
       <version>2.18.1-jitsi-9316999</version>
@@ -51,7 +51,8 @@
       <version>3.32.0-jitsi-18026739</version>
       <version>3.32.0-jitsi-18078917</version>
       <version>3.35.0-jitsi-18565203</version>
+      <version>3.35.0-jitsi-19349267</version>
     </versions>
-    <lastUpdated>20241118170049</lastUpdated>
+    <lastUpdated>20250217105806</lastUpdated>
   </versioning>
 </metadata>
