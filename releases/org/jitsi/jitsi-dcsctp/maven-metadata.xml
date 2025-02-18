@@ -3,14 +3,15 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jitsi-dcsctp</artifactId>
   <versioning>
-    <release>1.0-4-gcf01647</release>
+    <release>1.0-6-g5b58e75</release>
     <versions>
       <version>1.0-0-g8550111</version>
       <version>1.0-1-ga91e110</version>
       <version>1.0-2-g2d8eee4</version>
       <version>1.0-3-gaf9d564</version>
       <version>1.0-4-gcf01647</version>
+      <version>1.0-6-g5b58e75</version>
     </versions>
-    <lastUpdated>20250206192751</lastUpdated>
+    <lastUpdated>20250218225518</lastUpdated>
   </versioning>
 </metadata>
