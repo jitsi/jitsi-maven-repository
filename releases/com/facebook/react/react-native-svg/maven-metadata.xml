@@ -3,8 +3,8 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-svg</artifactId>
   <versioning>
-    <latest>13.13.0-jitsi-19557331</latest>
-    <release>13.13.0-jitsi-19557331</release>
+    <latest>13.13.0-jitsi-19710433</latest>
+    <release>13.13.0-jitsi-19710433</release>
     <versions>
       <version>9.7.1-jitsi-2242590</version>
       <version>9.7.1-jitsi-2267153</version>
@@ -91,7 +91,8 @@
       <version>13.13.0-jitsi-19503756</version>
       <version>13.13.0-jitsi-19540325</version>
       <version>13.13.0-jitsi-19557331</version>
+      <version>13.13.0-jitsi-19710433</version>
     </versions>
-    <lastUpdated>20250313125514</lastUpdated>
+    <lastUpdated>20250331061220</lastUpdated>
   </versioning>
 </metadata>
