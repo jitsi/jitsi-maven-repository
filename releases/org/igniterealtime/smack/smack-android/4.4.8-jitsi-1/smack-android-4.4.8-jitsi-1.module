@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-android",
+    "version": "4.4.8-jitsi-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xocdu4aluvh3hiulg7bwc7qemy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.minidns",
+          "module": "minidns-android21",
+          "version": {
+            "requires": "[1.0.0, 1.0.999]"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-im",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-resolver-minidns",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-sasl-provided",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-openpgp",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser-xpp3",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-android-4.4.8-jitsi-1.jar",
+          "url": "smack-android-4.4.8-jitsi-1.jar",
+          "size": 5798,
+          "sha512": "b7bcf5099c6ffc24d0f10b22fc2c757cd21dfd6b9dcdbdee9aa25c88ec14b891bb0a0d8e9a26d3e8e09f2ba2c6600aebff9b84d04f19d63e020e1ce07b2575ad",
+          "sha256": "0b09ca9c788785cf6ddf791d0060ee7c33ba314606fb6671311052b04385d612",
+          "sha1": "7ca0aae4f89e688c0a1b715efd9a463188a63ba2",
+          "md5": "78c052e442de9151ccb96c000369c090"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser-xpp3",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.minidns",
+          "module": "minidns-android21",
+          "version": {
+            "requires": "[1.0.0, 1.0.999]"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-im",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-resolver-minidns",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-sasl-provided",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-openpgp",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-android-4.4.8-jitsi-1.jar",
+          "url": "smack-android-4.4.8-jitsi-1.jar",
+          "size": 5798,
+          "sha512": "b7bcf5099c6ffc24d0f10b22fc2c757cd21dfd6b9dcdbdee9aa25c88ec14b891bb0a0d8e9a26d3e8e09f2ba2c6600aebff9b84d04f19d63e020e1ce07b2575ad",
+          "sha256": "0b09ca9c788785cf6ddf791d0060ee7c33ba314606fb6671311052b04385d612",
+          "sha1": "7ca0aae4f89e688c0a1b715efd9a463188a63ba2",
+          "md5": "78c052e442de9151ccb96c000369c090"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-android",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-android-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-android-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "445e269d8d0ab2ca3eec885934e72de6151e7b8aacc5b3b533233189ba9c72130496f3ccd680c3892d26aa74bc0a48f84a1f45c133bdda95ba92e836b5935eda",
+          "sha256": "2679da8866aff63f7dab87d09badd57b7a3df322e350af8cad0091a89bb6c482",
+          "sha1": "faaa32db9ec7e9bec7b11d4d0824124106e6b650",
+          "md5": "80312ac5ac8524c07b7dd6cdfc3a8647"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-android-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-android",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-android-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-android-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "445e269d8d0ab2ca3eec885934e72de6151e7b8aacc5b3b533233189ba9c72130496f3ccd680c3892d26aa74bc0a48f84a1f45c133bdda95ba92e836b5935eda",
+          "sha256": "2679da8866aff63f7dab87d09badd57b7a3df322e350af8cad0091a89bb6c482",
+          "sha1": "faaa32db9ec7e9bec7b11d4d0824124106e6b650",
+          "md5": "80312ac5ac8524c07b7dd6cdfc3a8647"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-android-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    }
+  ]
+}

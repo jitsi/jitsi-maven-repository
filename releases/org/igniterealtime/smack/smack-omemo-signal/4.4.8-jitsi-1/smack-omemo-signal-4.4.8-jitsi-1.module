@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-omemo-signal",
+    "version": "4.4.8-jitsi-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xocdu4aluvh3hiulg7bwc7qemy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-im",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-extensions",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-omemo",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.whispersystems",
+          "module": "signal-protocol-java",
+          "version": {
+            "requires": "2.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-omemo-signal-4.4.8-jitsi-1.jar",
+          "url": "smack-omemo-signal-4.4.8-jitsi-1.jar",
+          "size": 16157,
+          "sha512": "3a267ac824f9906caa718a4eb3c2ae7954824250e8eff9bece0eb816be27f28cd64be7351ee241fe25772d13c6f530b8c80404e697602d1555d9e5f78672fe33",
+          "sha256": "4443e42beb476511f574cf276412ba7b9d5852cdd02079f712109fe11e2cbb2f",
+          "sha1": "b9f4c11a7c82b69725094782d2b6bceb5e36e05c",
+          "md5": "b5f8896e01733502f0cecd2f5064c7e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-im",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-extensions",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-omemo",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.whispersystems",
+          "module": "signal-protocol-java",
+          "version": {
+            "requires": "2.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-omemo-signal-4.4.8-jitsi-1.jar",
+          "url": "smack-omemo-signal-4.4.8-jitsi-1.jar",
+          "size": 16157,
+          "sha512": "3a267ac824f9906caa718a4eb3c2ae7954824250e8eff9bece0eb816be27f28cd64be7351ee241fe25772d13c6f530b8c80404e697602d1555d9e5f78672fe33",
+          "sha256": "4443e42beb476511f574cf276412ba7b9d5852cdd02079f712109fe11e2cbb2f",
+          "sha1": "b9f4c11a7c82b69725094782d2b6bceb5e36e05c",
+          "md5": "b5f8896e01733502f0cecd2f5064c7e4"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-omemo-signal",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "org.igniterealtime.smack",
+              "name": "smack-core-test-fixtures",
+              "version": "4.4.8-jitsi-1"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-omemo-signal-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-omemo-signal-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "35f73918b5e2150e40358f3734f541e892baded5fc52b72d06cffc0a134cf2603824a0b81f17ada728a8471b1636888bdbcbcbb32352671af37325251a17b900",
+          "sha256": "779391db975d182b969566cb6751f7fc84056c7ad74fbb2ab54474751f533975",
+          "sha1": "76d5bb5501a1bf1a6863767fa181158b91724aa8",
+          "md5": "331879f836075be3491dce1955683763"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-omemo-signal-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-omemo-signal",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "org.igniterealtime.smack",
+              "name": "smack-core-test-fixtures",
+              "version": "4.4.8-jitsi-1"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-omemo-signal-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-omemo-signal-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "35f73918b5e2150e40358f3734f541e892baded5fc52b72d06cffc0a134cf2603824a0b81f17ada728a8471b1636888bdbcbcbb32352671af37325251a17b900",
+          "sha256": "779391db975d182b969566cb6751f7fc84056c7ad74fbb2ab54474751f533975",
+          "sha1": "76d5bb5501a1bf1a6863767fa181158b91724aa8",
+          "md5": "331879f836075be3491dce1955683763"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-omemo-signal-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    }
+  ]
+}

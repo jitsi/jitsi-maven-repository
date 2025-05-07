@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-sasl-javax",
+    "version": "4.4.8-jitsi-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xocdu4aluvh3hiulg7bwc7qemy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-sasl-javax-4.4.8-jitsi-1.jar",
+          "url": "smack-sasl-javax-4.4.8-jitsi-1.jar",
+          "size": 9425,
+          "sha512": "8c4546a7ba21e97ba4f345465d63cde671ed30ea307b31a5a72efbefb56c50aa5dd84cad258c21cc4dc3dcf2454b8ace0d501c035830b8e2f290f3e141c070b2",
+          "sha256": "5082a0260395d573ed3ba8999e42ee942657cb028e71eedc166a760b23db4500",
+          "sha1": "0ccf75edd07ba38779fa777004da5bfd6c1d022f",
+          "md5": "60f8a1960d27aa229c12a141a54edecc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-sasl-javax-4.4.8-jitsi-1.jar",
+          "url": "smack-sasl-javax-4.4.8-jitsi-1.jar",
+          "size": 9425,
+          "sha512": "8c4546a7ba21e97ba4f345465d63cde671ed30ea307b31a5a72efbefb56c50aa5dd84cad258c21cc4dc3dcf2454b8ace0d501c035830b8e2f290f3e141c070b2",
+          "sha256": "5082a0260395d573ed3ba8999e42ee942657cb028e71eedc166a760b23db4500",
+          "sha1": "0ccf75edd07ba38779fa777004da5bfd6c1d022f",
+          "md5": "60f8a1960d27aa229c12a141a54edecc"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-sasl-javax",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "org.igniterealtime.smack",
+              "name": "smack-core-test-fixtures",
+              "version": "4.4.8-jitsi-1"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-sasl-javax-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-sasl-javax-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "334934e00304a863f0b4087fb92ce75a7d7307408f3650c257c2c61a35a1f15fa17b51201f23c93c366a4fd54f2f5842c473115ec930cc33cbed817abd5dadec",
+          "sha256": "205dc1dc57c736c93a72cbe294f5389c462a309d06b45a89fd07d71b54f99730",
+          "sha1": "4a28432ab76f2a401961cfc85851b152bc6052ed",
+          "md5": "e37edcd65229a56255b21d7b0f0e4909"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-sasl-javax-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-sasl-javax",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "org.igniterealtime.smack",
+              "name": "smack-core-test-fixtures",
+              "version": "4.4.8-jitsi-1"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-sasl-javax-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-sasl-javax-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "334934e00304a863f0b4087fb92ce75a7d7307408f3650c257c2c61a35a1f15fa17b51201f23c93c366a4fd54f2f5842c473115ec930cc33cbed817abd5dadec",
+          "sha256": "205dc1dc57c736c93a72cbe294f5389c462a309d06b45a89fd07d71b54f99730",
+          "sha1": "4a28432ab76f2a401961cfc85851b152bc6052ed",
+          "md5": "e37edcd65229a56255b21d7b0f0e4909"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-sasl-javax-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    }
+  ]
+}

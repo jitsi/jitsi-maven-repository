@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-resolver-dnsjava",
+    "version": "4.4.8-jitsi-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xocdu4aluvh3hiulg7bwc7qemy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "dnsjava",
+          "module": "dnsjava",
+          "version": {
+            "requires": "[3.0.0,3.0.9999]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-dnsjava-4.4.8-jitsi-1.jar",
+          "url": "smack-resolver-dnsjava-4.4.8-jitsi-1.jar",
+          "size": 3406,
+          "sha512": "4a2b2f42b004af89e65309f66b9db55a2e51116c7b2ee2c2f6f78be0d707cabdc00763de4e9327994370c71459f599e7d92ff7b434f4595f2358d2d9de82d16d",
+          "sha256": "9c26bb693d2c84c2e723bd9caa08739401802dfad4eb1ef30ae67e041c1b86cd",
+          "sha1": "2fcda2188311039777055c4f18c2997889c47248",
+          "md5": "864f1c3a85695f0bab8e2fa0543ff8b3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "dnsjava",
+          "module": "dnsjava",
+          "version": {
+            "requires": "[3.0.0,3.0.9999]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-dnsjava-4.4.8-jitsi-1.jar",
+          "url": "smack-resolver-dnsjava-4.4.8-jitsi-1.jar",
+          "size": 3406,
+          "sha512": "4a2b2f42b004af89e65309f66b9db55a2e51116c7b2ee2c2f6f78be0d707cabdc00763de4e9327994370c71459f599e7d92ff7b434f4595f2358d2d9de82d16d",
+          "sha256": "9c26bb693d2c84c2e723bd9caa08739401802dfad4eb1ef30ae67e041c1b86cd",
+          "sha1": "2fcda2188311039777055c4f18c2997889c47248",
+          "md5": "864f1c3a85695f0bab8e2fa0543ff8b3"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-resolver-dnsjava",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-dnsjava-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-resolver-dnsjava-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "5935c09e0bfe4d72704ee9d9ba40b6239c52db87ead7014c3c67b98cd7d619b98e68c22b64131af8c37c5ed5e99ffaa7524856be5723fbd904ee88ee203eb671",
+          "sha256": "06ce9fefee070bea7d867361ce29da1c29809bd2a4da793de7e9a3102b347f4c",
+          "sha1": "b39690839408f285a294cc7deb1e1c569d74e146",
+          "md5": "791d291505f4bc92f808c2438a10f22a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-resolver-dnsjava-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-resolver-dnsjava",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-dnsjava-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-resolver-dnsjava-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "5935c09e0bfe4d72704ee9d9ba40b6239c52db87ead7014c3c67b98cd7d619b98e68c22b64131af8c37c5ed5e99ffaa7524856be5723fbd904ee88ee203eb671",
+          "sha256": "06ce9fefee070bea7d867361ce29da1c29809bd2a4da793de7e9a3102b347f4c",
+          "sha1": "b39690839408f285a294cc7deb1e1c569d74e146",
+          "md5": "791d291505f4bc92f808c2438a10f22a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-resolver-dnsjava-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-resolver-minidns",
+    "version": "4.4.8-jitsi-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xocdu4aluvh3hiulg7bwc7qemy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.minidns",
+          "module": "minidns-hla",
+          "version": {
+            "requires": "[1.0.0, 1.0.999]"
+          }
+        },
+        {
+          "group": "org.jxmpp",
+          "module": "jxmpp-util-cache",
+          "version": {
+            "requires": "[1.0.0, 1.0.999]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-minidns-4.4.8-jitsi-1.jar",
+          "url": "smack-resolver-minidns-4.4.8-jitsi-1.jar",
+          "size": 7656,
+          "sha512": "e1484bcd85ac9fd26c740f3415c786e0ece5bb3ace2b5cf281094e35bf63982c812669a184ee7e8a835a96b07856a34a2d04439eebe4f9446fc3d16f0cea4a59",
+          "sha256": "248eea998854154200be13840d6e4679dc42698b44bb71d79979a1d0e930b41c",
+          "sha1": "5c8190cec10367e9a31cc1eac8a9b5976d3fa929",
+          "md5": "8aa0b58f2c7072e2d73f636b4dece66f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.minidns",
+          "module": "minidns-hla",
+          "version": {
+            "requires": "[1.0.0, 1.0.999]"
+          }
+        },
+        {
+          "group": "org.jxmpp",
+          "module": "jxmpp-util-cache",
+          "version": {
+            "requires": "[1.0.0, 1.0.999]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-minidns-4.4.8-jitsi-1.jar",
+          "url": "smack-resolver-minidns-4.4.8-jitsi-1.jar",
+          "size": 7656,
+          "sha512": "e1484bcd85ac9fd26c740f3415c786e0ece5bb3ace2b5cf281094e35bf63982c812669a184ee7e8a835a96b07856a34a2d04439eebe4f9446fc3d16f0cea4a59",
+          "sha256": "248eea998854154200be13840d6e4679dc42698b44bb71d79979a1d0e930b41c",
+          "sha1": "5c8190cec10367e9a31cc1eac8a9b5976d3fa929",
+          "md5": "8aa0b58f2c7072e2d73f636b4dece66f"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-resolver-minidns",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-minidns-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-resolver-minidns-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "334934e00304a863f0b4087fb92ce75a7d7307408f3650c257c2c61a35a1f15fa17b51201f23c93c366a4fd54f2f5842c473115ec930cc33cbed817abd5dadec",
+          "sha256": "205dc1dc57c736c93a72cbe294f5389c462a309d06b45a89fd07d71b54f99730",
+          "sha1": "4a28432ab76f2a401961cfc85851b152bc6052ed",
+          "md5": "e37edcd65229a56255b21d7b0f0e4909"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-resolver-minidns-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-resolver-minidns",
+          "version": {
+            "requires": "4.4.8-jitsi-1"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-resolver-minidns-4.4.8-jitsi-1-test-fixtures.jar",
+          "url": "smack-resolver-minidns-4.4.8-jitsi-1-test-fixtures.jar",
+          "size": 261,
+          "sha512": "334934e00304a863f0b4087fb92ce75a7d7307408f3650c257c2c61a35a1f15fa17b51201f23c93c366a4fd54f2f5842c473115ec930cc33cbed817abd5dadec",
+          "sha256": "205dc1dc57c736c93a72cbe294f5389c462a309d06b45a89fd07d71b54f99730",
+          "sha1": "4a28432ab76f2a401961cfc85851b152bc6052ed",
+          "md5": "e37edcd65229a56255b21d7b0f0e4909"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-resolver-minidns-test-fixtures",
+          "version": "4.4.8-jitsi-1"
+        }
+      ]
+    }
+  ]
+}
