@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.igniterealtime.smack</groupId>
+  <artifactId>smack-java8-full</artifactId>
+  <versioning>
+    <latest>4.4.8-jitsi-1</latest>
+    <release>4.4.8-jitsi-1</release>
+    <versions>
+      <version>4.4.8-jitsi-1</version>
+    </versions>
+    <lastUpdated>20250507181849</lastUpdated>
+  </versioning>
+</metadata>
