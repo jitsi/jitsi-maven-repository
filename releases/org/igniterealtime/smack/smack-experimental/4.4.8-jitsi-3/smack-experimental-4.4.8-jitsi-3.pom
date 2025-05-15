@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.igniterealtime.smack</groupId>
+  <artifactId>smack-experimental</artifactId>
+  <version>4.4.8-jitsi-3</version>
+  <name>Smack</name>
+  <description>Smack experimental extensions.
+Classes and methods for XEPs that are in status 'experimental' or that should
+otherwise carefully considered for deployment. The API may change even
+between patch versions.</description>
+  <url>http://www.igniterealtime.org/projects/smack/</url>
+  <inceptionYear>2003</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flow</id>
+      <name>Florian Schmaus</name>
+      <email>flow@igniterealtime.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/igniterealtime/Smack.git</connection>
+    <developerConnection>scm:git:https://github.com/igniterealtime/Smack.git</developerConnection>
+    <url>https://github.com/igniterealtime/Smack</url>
+  </scm>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>https://igniterealtime.org/issues/browse/SMACK</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.igniterealtime.smack</groupId>
+      <artifactId>smack-core</artifactId>
+      <version>4.4.8-jitsi-3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.igniterealtime.smack</groupId>
+      <artifactId>smack-extensions</artifactId>
+      <version>4.4.8-jitsi-3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hsluv</groupId>
+      <artifactId>hsluv</artifactId>
+      <version>0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.7.1</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.3.3</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.igniterealtime.smack</groupId>
+      <artifactId>smack-extensions</artifactId>
+      <version>4.4.8-jitsi-3</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

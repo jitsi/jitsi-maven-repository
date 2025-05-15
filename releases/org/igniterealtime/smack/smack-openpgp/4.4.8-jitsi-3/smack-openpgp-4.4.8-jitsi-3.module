@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-openpgp",
+    "version": "4.4.8-jitsi-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "g4w2765gmje7dijtp3gf35vrpy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-extensions",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-experimental",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.pgpainless",
+          "module": "pgpainless-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-openpgp-4.4.8-jitsi-3.jar",
+          "url": "smack-openpgp-4.4.8-jitsi-3.jar",
+          "size": 104268,
+          "sha512": "207ea3cca0e29cc94d808481353b0b58bff0d485208a734c4f39471e2e4643d9751d21872ae53428621cafe01751d79d6f00dfd3a3778c6ea24af6cfc30be99b",
+          "sha256": "e13611628d3865e0e8e685b46170a1b7ce0205f692af7966e69597009279d6ac",
+          "sha1": "95221092daee44a727fa1e7bb055b7684782faeb",
+          "md5": "c959d4cce719e7cba3ba97dd76aab115"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-extensions",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-experimental",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.pgpainless",
+          "module": "pgpainless-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-openpgp-4.4.8-jitsi-3.jar",
+          "url": "smack-openpgp-4.4.8-jitsi-3.jar",
+          "size": 104268,
+          "sha512": "207ea3cca0e29cc94d808481353b0b58bff0d485208a734c4f39471e2e4643d9751d21872ae53428621cafe01751d79d6f00dfd3a3778c6ea24af6cfc30be99b",
+          "sha256": "e13611628d3865e0e8e685b46170a1b7ce0205f692af7966e69597009279d6ac",
+          "sha1": "95221092daee44a727fa1e7bb055b7684782faeb",
+          "md5": "c959d4cce719e7cba3ba97dd76aab115"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-openpgp",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "org.igniterealtime.smack",
+              "name": "smack-core-test-fixtures",
+              "version": "4.4.8-jitsi-3"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-openpgp-4.4.8-jitsi-3-test-fixtures.jar",
+          "url": "smack-openpgp-4.4.8-jitsi-3-test-fixtures.jar",
+          "size": 261,
+          "sha512": "52a129db0645c02d10bfd53a87530850af1e4cad63a6fae21d55c934d1bbef179eec5d9774516abec516924bd24536b1b1183df875669a353e26807f144c2f3b",
+          "sha256": "9308a066a434542d9faf2e139b83a51353b64ae9d0475323fcf29b871f4f60f0",
+          "sha1": "4474efdd4efaaf2ec09e03b5b1ac06a34771e8a0",
+          "md5": "a75d46995de57e415957c894b498897b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-openpgp-test-fixtures",
+          "version": "4.4.8-jitsi-3"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-openpgp",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-3"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "org.igniterealtime.smack",
+              "name": "smack-core-test-fixtures",
+              "version": "4.4.8-jitsi-3"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-openpgp-4.4.8-jitsi-3-test-fixtures.jar",
+          "url": "smack-openpgp-4.4.8-jitsi-3-test-fixtures.jar",
+          "size": 261,
+          "sha512": "52a129db0645c02d10bfd53a87530850af1e4cad63a6fae21d55c934d1bbef179eec5d9774516abec516924bd24536b1b1183df875669a353e26807f144c2f3b",
+          "sha256": "9308a066a434542d9faf2e139b83a51353b64ae9d0475323fcf29b871f4f60f0",
+          "sha1": "4474efdd4efaaf2ec09e03b5b1ac06a34771e8a0",
+          "md5": "a75d46995de57e415957c894b498897b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-openpgp-test-fixtures",
+          "version": "4.4.8-jitsi-3"
+        }
+      ]
+    }
+  ]
+}
