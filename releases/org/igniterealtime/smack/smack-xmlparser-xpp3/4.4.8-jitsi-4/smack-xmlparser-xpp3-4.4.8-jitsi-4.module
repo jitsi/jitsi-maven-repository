@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-xmlparser-xpp3",
+    "version": "4.4.8-jitsi-4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "55gr4pkpovd5dd4fmxotu6cy3u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "xpp3",
+          "module": "xpp3_min",
+          "version": {
+            "requires": "1.1.4c"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-xmlparser-xpp3-4.4.8-jitsi-4.jar",
+          "url": "smack-xmlparser-xpp3-4.4.8-jitsi-4.jar",
+          "size": 6385,
+          "sha512": "16161babaf81fb897495e9d0e36aa2ae3b03fcbb116f700c329cff176d0b0c62e56212c92c283ec66c2bff003c99f5f3a95b28e23a569688cfce2822abe4d5c7",
+          "sha256": "1816e529c9f6974665dba16dd2909fea415c7da196f12ba1e7bd2605a898e9c4",
+          "sha1": "1bb834470764136890d2b708321837dd9558f8b2",
+          "md5": "1023f7fef748b9db84483e9d38c8b954"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "xpp3",
+          "module": "xpp3",
+          "version": {
+            "requires": "1.1.4c"
+          }
+        },
+        {
+          "group": "xpp3",
+          "module": "xpp3_min",
+          "version": {
+            "requires": "1.1.4c"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-xmlparser-xpp3-4.4.8-jitsi-4.jar",
+          "url": "smack-xmlparser-xpp3-4.4.8-jitsi-4.jar",
+          "size": 6385,
+          "sha512": "16161babaf81fb897495e9d0e36aa2ae3b03fcbb116f700c329cff176d0b0c62e56212c92c283ec66c2bff003c99f5f3a95b28e23a569688cfce2822abe4d5c7",
+          "sha256": "1816e529c9f6974665dba16dd2909fea415c7da196f12ba1e7bd2605a898e9c4",
+          "sha1": "1bb834470764136890d2b708321837dd9558f8b2",
+          "md5": "1023f7fef748b9db84483e9d38c8b954"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser-xpp3",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-xmlparser-xpp3-4.4.8-jitsi-4-test-fixtures.jar",
+          "url": "smack-xmlparser-xpp3-4.4.8-jitsi-4-test-fixtures.jar",
+          "size": 261,
+          "sha512": "eb8a432adf08fccc169cfb018cdd12d673442b062e3720010e65a678063f9b43d35745e7a73029b63ad4d8820081425e9a583d1e50cdbad860eb867534233ed2",
+          "sha256": "88a656f746f4b6bdca20aa1e45cb18697bd7bf34e5c28dc4ff1efed253a10c2a",
+          "sha1": "9cb7b0437b45dadbba4d4934c898eae6ca52cbbe",
+          "md5": "8e87ec44f6d3b324bedf96372ddcee1a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-xmlparser-xpp3-test-fixtures",
+          "version": "4.4.8-jitsi-4"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-xmlparser-xpp3",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-xmlparser-xpp3-4.4.8-jitsi-4-test-fixtures.jar",
+          "url": "smack-xmlparser-xpp3-4.4.8-jitsi-4-test-fixtures.jar",
+          "size": 261,
+          "sha512": "eb8a432adf08fccc169cfb018cdd12d673442b062e3720010e65a678063f9b43d35745e7a73029b63ad4d8820081425e9a583d1e50cdbad860eb867534233ed2",
+          "sha256": "88a656f746f4b6bdca20aa1e45cb18697bd7bf34e5c28dc4ff1efed253a10c2a",
+          "sha1": "9cb7b0437b45dadbba4d4934c898eae6ca52cbbe",
+          "md5": "8e87ec44f6d3b324bedf96372ddcee1a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-xmlparser-xpp3-test-fixtures",
+          "version": "4.4.8-jitsi-4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.igniterealtime.smack",
+    "module": "smack-debug-slf4j",
+    "version": "4.4.8-jitsi-4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "55gr4pkpovd5dd4fmxotu6cy3u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "[1.7,1.8)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-debug-slf4j-4.4.8-jitsi-4.jar",
+          "url": "smack-debug-slf4j-4.4.8-jitsi-4.jar",
+          "size": 7032,
+          "sha512": "03dce05ae9b156783226e745c7ded2f07bc2804059a60ab088fe0fd08cec53d40201abe81d88e51805ab8e8219752149fc08f17184fd16e16f5aa8b7a4d142b5",
+          "sha256": "aac82d0dc9b66a5db9cf31efae292d2bc9ae1a1e626ec9aaad8f88eed8459838",
+          "sha1": "3698893082e1259e4afce492eae2be93953ab2fd",
+          "md5": "27b3b8ca81cc8a6f28e7c25eb73866ca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-core",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "[1.7,1.8)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-debug-slf4j-4.4.8-jitsi-4.jar",
+          "url": "smack-debug-slf4j-4.4.8-jitsi-4.jar",
+          "size": 7032,
+          "sha512": "03dce05ae9b156783226e745c7ded2f07bc2804059a60ab088fe0fd08cec53d40201abe81d88e51805ab8e8219752149fc08f17184fd16e16f5aa8b7a4d142b5",
+          "sha256": "aac82d0dc9b66a5db9cf31efae292d2bc9ae1a1e626ec9aaad8f88eed8459838",
+          "sha1": "3698893082e1259e4afce492eae2be93953ab2fd",
+          "md5": "27b3b8ca81cc8a6f28e7c25eb73866ca"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-debug-slf4j",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-debug-slf4j-4.4.8-jitsi-4-test-fixtures.jar",
+          "url": "smack-debug-slf4j-4.4.8-jitsi-4-test-fixtures.jar",
+          "size": 261,
+          "sha512": "d67eebe7cb2e65cae39276ce10861910c65f2101644cbb39fa5dab2bae35a7a56dc6d2c44bead06217af846b98d167676e71212ae2efe61864cc1b976502ebe9",
+          "sha256": "df011fc25ae4bfb9e4fca6fc8ed6ece6767b2a9168a3b61f7b1b3f0509e0cdb8",
+          "sha1": "7a41006f5deda343284876d328f8e851f1f67480",
+          "md5": "7f2748eb533242a473f1798f52e2fc4a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-debug-slf4j-test-fixtures",
+          "version": "4.4.8-jitsi-4"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-debug-slf4j",
+          "version": {
+            "requires": "4.4.8-jitsi-4"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.7.1"
+          }
+        },
+        {
+          "group": "org.mockito",
+          "module": "mockito-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smack-debug-slf4j-4.4.8-jitsi-4-test-fixtures.jar",
+          "url": "smack-debug-slf4j-4.4.8-jitsi-4-test-fixtures.jar",
+          "size": 261,
+          "sha512": "d67eebe7cb2e65cae39276ce10861910c65f2101644cbb39fa5dab2bae35a7a56dc6d2c44bead06217af846b98d167676e71212ae2efe61864cc1b976502ebe9",
+          "sha256": "df011fc25ae4bfb9e4fca6fc8ed6ece6767b2a9168a3b61f7b1b3f0509e0cdb8",
+          "sha1": "7a41006f5deda343284876d328f8e851f1f67480",
+          "md5": "7f2748eb533242a473f1798f52e2fc4a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.igniterealtime.smack",
+          "name": "smack-debug-slf4j-test-fixtures",
+          "version": "4.4.8-jitsi-4"
+        }
+      ]
+    }
+  ]
+}

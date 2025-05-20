@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.igniterealtime.smack</groupId>
+  <artifactId>smack-repl</artifactId>
+  <version>4.4.8-jitsi-4</version>
+  <name>Smack</name>
+  <description>A REPL (Read-Eval-Print-Loop) for Smack, or, in other words, a CLI (Command Line Interface) for Smack.</description>
+  <url>http://www.igniterealtime.org/projects/smack/</url>
+  <inceptionYear>2003</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU General Public License, version 3 or any later version</name>
+      <url>https://www.gnu.org/licenses/gpl.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>flow</id>
+      <name>Florian Schmaus</name>
+      <email>flow@igniterealtime.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/igniterealtime/Smack.git</connection>
+    <developerConnection>scm:git:https://github.com/igniterealtime/Smack.git</developerConnection>
+    <url>https://github.com/igniterealtime/Smack</url>
+  </scm>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>https://igniterealtime.org/issues/browse/SMACK</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.12.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lihaoyi</groupId>
+      <artifactId>ammonite_2.12.1</artifactId>
+      <version>1.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.igniterealtime.smack</groupId>
+      <artifactId>smack-integration-test</artifactId>
+      <version>4.4.8-jitsi-4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.igniterealtime.smack</groupId>
+      <artifactId>smack-omemo-signal</artifactId>
+      <version>4.4.8-jitsi-4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.7.1</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.3.3</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>
