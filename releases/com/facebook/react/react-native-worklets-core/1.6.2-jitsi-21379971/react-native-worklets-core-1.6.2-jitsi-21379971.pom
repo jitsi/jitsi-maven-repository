@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-worklets-core</artifactId>
+  <version>1.6.2-jitsi-21379971</version>
+  <packaging>aar</packaging>
+  <name>react-native-worklets-core</name>
+  <description>A Worklet runner for React Native</description>
+  <url>https://github.com/margelo/react-native-worklets-core#readme</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-android</artifactId>
+      <version>0.77.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>hermes-android</artifactId>
+      <version>0.77.2</version>
+    </dependency>
+  </dependencies>
+</project>
