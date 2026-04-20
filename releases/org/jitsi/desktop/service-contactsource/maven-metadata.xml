@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>service-contactsource</artifactId>
   <versioning>
-    <release>2.14.319309ee0</release>
+    <release>2.14.8b8e824da</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -54,7 +54,8 @@
       <version>2.14.a165b4953</version>
       <version>2.14.129b23b8f</version>
       <version>2.14.319309ee0</version>
+      <version>2.14.8b8e824da</version>
     </versions>
-    <lastUpdated>20250712063640</lastUpdated>
+    <lastUpdated>20260420163801</lastUpdated>
   </versioning>
 </metadata>
