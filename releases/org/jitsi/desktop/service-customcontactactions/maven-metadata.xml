@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>service-customcontactactions</artifactId>
   <versioning>
-    <release>2.14.4d580b4f8</release>
+    <release>2.14.7bde4ffeb</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -59,7 +59,8 @@
       <version>2.14.1074aeb81</version>
       <version>2.14.51b5c3382</version>
       <version>2.14.4d580b4f8</version>
+      <version>2.14.7bde4ffeb</version>
     </versions>
-    <lastUpdated>20260511181647</lastUpdated>
+    <lastUpdated>20260602164207</lastUpdated>
   </versioning>
 </metadata>
