@@ -3,7 +3,7 @@
   <groupId>org.jitsi</groupId>
   <artifactId>jicoco-mucclient</artifactId>
   <versioning>
-    <release>1.1-187-g372b1ed</release>
+    <release>1.1-188-g61e7872</release>
     <versions>
       <version>1.1-156-g4ea1d28</version>
       <version>1.1-157-gb20b38c</version>
@@ -34,7 +34,8 @@
       <version>1.1-185-g39d5766</version>
       <version>1.1-186-gaff5438</version>
       <version>1.1-187-g372b1ed</version>
+      <version>1.1-188-g61e7872</version>
     </versions>
-    <lastUpdated>20261023193255</lastUpdated>
+    <lastUpdated>20261028120938</lastUpdated>
   </versioning>
 </metadata>
