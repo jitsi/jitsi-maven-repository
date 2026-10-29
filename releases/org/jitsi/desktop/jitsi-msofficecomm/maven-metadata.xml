@@ -3,7 +3,7 @@
   <groupId>org.jitsi.desktop</groupId>
   <artifactId>jitsi-msofficecomm</artifactId>
   <versioning>
-    <release>2.14.ccf694380</release>
+    <release>2.14.52cc923bf</release>
     <versions>
       <version>2.14.32d80945a</version>
       <version>2.14.caac5f877</version>
@@ -62,7 +62,8 @@
       <version>2.14.7bde4ffeb</version>
       <version>2.14.a7ef99f4c</version>
       <version>2.14.ccf694380</version>
+      <version>2.14.52cc923bf</version>
     </versions>
-    <lastUpdated>20260922154218</lastUpdated>
+    <lastUpdated>20261029183138</lastUpdated>
   </versioning>
 </metadata>
